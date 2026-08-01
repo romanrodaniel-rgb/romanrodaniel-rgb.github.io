@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>MPI · Córdoba / Grisalla · Public Demo</title>
-  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/app.css?v=20260801-mobile-safari">
 </head>
 <body class="public-demo">
   <a class="public-demo-back" href="../" aria-label="Volver a la web de Daniel Román">← Daniel Román</a>
@@ -151,7 +151,7 @@
         <span id="loadingText">Cargando…</span>
       </div>
       <div id="coordinateHud" class="coordinate-hud">x — · y — · z —</div>
-      <div class="interaction-help" data-en="Drag: rotate the world · Wheel: continuous zoom · Materials reveal their content as you approach">Arrastra: gira el mundo · Rueda: zoom continuo · Los materiales revelan su contenido al acercarte</div>
+      <div class="interaction-help" data-en="Drag: rotate · Pinch or wheel: zoom · Tap a node: open its record">Arrastra: gira · Pellizca o rueda: zoom · Toca un nodo: abre su ficha</div>
     </section>
 
     <button type="button" id="panelToggle" class="panel-toggle" aria-controls="informationPanel" aria-expanded="false" title="Abrir ficha del nodo">
@@ -593,7 +593,7 @@
       function setPanel(open) {
         body.classList.toggle('panel-open', open);
         panel.setAttribute('aria-hidden', String(!open));
-        panel.inert = !open;
+        if ('inert' in panel) panel.inert = !open;
         toggle.setAttribute('aria-expanded', String(open));
         toggle.title = open ? 'Ocultar ficha del nodo' : 'Abrir ficha del nodo';
         window.setTimeout(function () {
@@ -622,7 +622,18 @@
       setPanel(false);
     });
   </script>
-  <script src="assets/vendor/pdfjs/pdf.min.js"></script>
-  <script type="module" src="core/app.js"></script>
+  <script>
+    if (!Promise.allSettled) {
+      Promise.allSettled = function (items) {
+        return Promise.all(Array.from(items).map(function (item) {
+          return Promise.resolve(item).then(
+            function (value) { return { status: 'fulfilled', value: value }; },
+            function (reason) { return { status: 'rejected', reason: reason }; }
+          );
+        }));
+      };
+    }
+  </script>
+  <script type="module" src="core/app.js?v=20260801-mobile-safari"></script>
 </body>
 </html>
