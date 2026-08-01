@@ -1,299 +1,639 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Daniel Román — composer, guitarist and musicologist working across contemporary jazz, poetry, oral traditions and computational sound.">
-  <meta name="theme-color" content="#0b0b0b">
-  <meta property="og:title" content="Daniel Román — Sound as thought">
-  <meta property="og:description" content="Composer, guitarist and musicologist. Contemporary jazz, poetry, oral traditions and computational sound.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://romanrodaniel.com/">
-  <meta property="og:image" content="https://romanrodaniel.com/assets/daniel-portrait.jpg">
-  <title>Daniel Román — Sound as thought</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260801-ui-v2">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Daniel Nicolás Román Rodríguez",
-    "alternateName": "Daniel Román",
-    "url": "https://romanrodaniel.com/",
-    "image": "https://romanrodaniel.com/assets/daniel-portrait.jpg",
-    "jobTitle": ["Composer", "Guitarist", "Musicologist", "University Lecturer"],
-    "sameAs": [
-      "https://www.instagram.com/romanro.daniel/",
-      "https://www.jazzaldia.eus/es/conciertos-entradas/3-pere-bujosa-trio-daniel-roman-jazz-quintet?ide=27756",
-      "https://www.sigpa.cl/ficha-individual/daniel-nicolas-roman-rodriguez"
-    ]
-  }
-  </script>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>MPI · Córdoba / Grisalla · Public Demo</title>
+  <link rel="stylesheet" href="assets/css/app.css?v=20260801-mobile-ui-v2">
 </head>
-<body>
-  <a class="skip-link" href="#main" data-key="skip">Skip to content</a>
-  <div class="grain" aria-hidden="true"></div>
-
-  <header class="topbar" id="top">
-    <a class="wordmark" href="#top" aria-label="Daniel Román, home">
-      <span>Daniel</span><span>Román</span>
-    </a>
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="#work" data-key="navWork">Work</a>
-      <a href="#research" data-key="navResearch">Research</a>
-      <a href="#press" data-key="navPress">Press</a>
-      <a href="#about" data-key="navAbout">About</a>
-      <a href="#contact" data-key="navContact">Contact</a>
-    </nav>
-    <div class="header-actions">
-      <button class="language-toggle" id="language-toggle" type="button" aria-label="Cambiar a español">ES</button>
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span><span class="sr-only">Menu</span>
-      </button>
+<body class="public-demo">
+  <a class="public-demo-back" href="../" aria-label="Volver a la web de Daniel Román"><span class="public-back-arrow" aria-hidden="true"></span><span>Daniel Román</span></a>
+  <div class="public-demo-badge">PUBLIC DEMO · CÓRDOBA / GRISALLA</div>
+  <header class="topbar">
+    <div class="brand-zone">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <div>
+        <h1>MPI</h1>
+        <small>Motor de Pensamiento Imaginal</small>
+      </div>
+      <span id="worldVersionBadge" class="world-version-badge">mundo · versión</span>
     </div>
-    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
-      <a href="#work" data-key="navWork">Work</a>
-      <a href="#research" data-key="navResearch">Research</a>
-      <a href="#press" data-key="navPress">Press</a>
-      <a href="#about" data-key="navAbout">About</a>
-      <a href="#contact" data-key="navContact">Contact</a>
+
+    <div class="search-zone">
+      <span class="search-glyph" aria-hidden="true"></span>
+      <input class="control search" id="search" placeholder="Buscar dentro del mundo…" data-placeholder-en="Search within this world…" autocomplete="off">
+    </div>
+
+    <select class="control workspace-mode contextual-help-control" id="workspaceMode" aria-label="Perspectiva de trabajo" aria-describedby="contextHelpBubble" data-context-help="workspace">
+      <option value="research" selected data-en="Research">Investigación</option>
+      <option value="composition" data-en="Composition">Composición</option>
+    </select>
+
+    <nav class="topbar-menus" aria-label="Herramientas del mundo">
+      <details class="tool-menu world-menu">
+        <summary data-en="World">Mundo</summary>
+        <div class="tool-popover">
+          <span class="popover-label" data-en="Active world">Mundo activo</span>
+          <p class="popover-intro" data-en="Open, create or extend worlds without changing the current navigation until you choose one.">Abre, crea o amplía mundos sin alterar la navegación actual hasta que elijas uno.</p>
+          <select class="control world-select contextual-help-control" id="world" aria-label="Mundo" data-context-help="world" data-context-value="active"></select>
+          <button class="control world-library-tab contextual-help-control" id="openWorldLibrary" title="Abrir o ampliar un mundo existente" data-en="Open worlds" data-context-help="world" data-context-value="open">Abrir mundos</button>
+          <button class="control new-world contextual-help-control" id="newWorld" title="Crear un mundo desde cero" data-en="+ New world" data-context-help="world" data-context-value="create">+ Nuevo mundo</button>
+          <button class="control manage-world contextual-help-control" id="manageWorld" data-en="+ Add materials" data-context-help="world" data-context-value="extend">+ Añadir materiales</button>
+          <button class="control world-trash-tab contextual-help-control" id="openWorldTrash" title="Eliminar o restaurar mundos" aria-label="Abrir papelera de mundos" data-context-help="world" data-context-value="trash">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5"/></svg>
+            <span data-en="Trash">Papelera</span>
+          </button>
+        </div>
+      </details>
+
+      <details class="tool-menu">
+        <summary data-en="View">Vista</summary>
+        <div class="tool-popover">
+          <span class="popover-label" data-en="Scale and projection">Escala y proyección</span>
+          <p class="popover-intro" data-en="Change how the same corpus is read. These controls do not delete or recalculate nodes.">Cambia la forma de leer el mismo corpus. Estos controles no borran ni recalculan nodos.</p>
+          <select class="control generated-filter contextual-help-control" id="nodeScope" aria-label="Origen de los nodos buscados" aria-describedby="contextHelpBubble" data-context-help="node-scope">
+            <option value="all" selected data-en="Entire corpus">Todo el corpus</option>
+            <option value="archive" data-en="Original sources">Fuentes originales</option>
+            <option value="generated" data-en="MPI creations">Creaciones MPI</option>
+          </select>
+          <select class="control knowledge-scale contextual-help-control" id="knowledgeScale" aria-label="Escala de exploración" aria-describedby="contextHelpBubble" data-context-help="scale">
+            <option value="all" data-en="All nodes">Todos los nodos</option>
+            <option value="auto" selected data-en="Automatic scale">Escala automática</option>
+            <option value="territorial" data-en="Territorial">Territorial</option>
+            <option value="documentary" data-en="Documentary">Documental</option>
+            <option value="sonic" data-en="Sonic">Sonora</option>
+          </select>
+          <select class="control contextual-help-control" id="projection" aria-label="Proyección espacial" aria-describedby="contextHelpBubble" data-context-help="projection"></select>
+          <select class="control contextual-help-control" id="colorMode" aria-label="Color de nodos" aria-describedby="contextHelpBubble" data-context-help="color">
+            <option value="relation-hierarchy" selected data-en="Gradual relational hierarchy">Jerarquía relacional gradual</option>
+            <option value="cluster" data-en="Color by region">Color por región</option>
+            <option value="relation" data-en="Color by relation type">Color por tipo de relación</option>
+            <option value="type" data-en="Color by node type">Color por tipo de nodo</option>
+            <option value="source" data-en="Color by source">Color por fuente</option>
+          </select>
+          <select class="control contextual-help-control" id="viewMode" aria-label="Modo gráfico" aria-describedby="contextHelpBubble" data-context-help="view">
+            <option value="3d" selected data-en="Spatial projector · continuous growth">Proyector espacial · crecimiento continuo</option>
+            <option value="2d" data-en="2D plane · zoom and pan">Plano 2D · zoom y desplazamiento</option>
+            <option value="auto" data-en="Automatic view">Vista automática</option>
+          </select>
+          <select class="control contextual-help-control" id="representationMode" aria-label="Representación de los nodos" aria-describedby="contextHelpBubble" data-context-help="representation">
+            <option value="nodes" selected data-en="Nodes · vector cloud">Nodos · nube vectorial</option>
+            <option value="territories" data-en="Territories · semantic regions">Territorios · regiones semánticas</option>
+            <option value="constellation" data-en="Constellations · direct relations">Constelaciones · relaciones directas</option>
+            <option value="flows" data-en="Flows · relational currents">Flujos · corrientes relacionales</option>
+            <option value="textures" data-en="Textures · density fields">Texturas · campos de densidad</option>
+            <option value="tides" data-en="Tides · oceanic space">Mareas · espacio oceánico</option>
+            <option value="orbits" data-en="Orbits · semantic systems">Órbitas · sistemas semánticos</option>
+          </select>
+          <label class="popover-toggle material-layer-toggle contextual-help-control" data-context-help="material-layer" data-context-value="toggle">
+            <input type="checkbox" id="showMaterials">
+            <span data-en="Reveal materials">Ver materiales</span>
+          </label>
+          <label class="temperature-control contextual-help-control" data-context-help="temperature" data-context-value="motion">
+            <span data-en="Vector temperature">Temperatura vectorial</span>
+            <input type="range" id="visualTemperature" min="0" max="100" value="42">
+            <output id="visualTemperatureMetric">42 %</output>
+          </label>
+          <label class="popover-toggle">
+            <input type="checkbox" id="showAxes" checked>
+            <span data-en="Show spatial axes">Mostrar ejes espaciales</span>
+          </label>
+          <button class="control" id="reset" data-en="Reset view">Restablecer vista</button>
+        </div>
+      </details>
+
+      <details class="tool-menu">
+        <summary data-en="Sound">Sonido</summary>
+        <div class="tool-popover">
+          <span class="popover-label" data-en="Journey sonification">Sonificación del recorrido</span>
+          <p class="popover-intro" data-en="Choose how navigation becomes sound. It changes the listening behavior, never the corpus.">Elige cómo la navegación se convierte en sonido. Modifica la escucha, nunca el corpus.</p>
+          <select class="control contextual-help-control" id="mode" aria-label="Modo de sonificación" aria-describedby="contextHelpBubble" data-context-help="sound">
+            <option value="bell-mass" selected>Campos · masas de campanas</option>
+            <option value="bell-granular">Campos · nube granular</option>
+            <option value="bell-resonant">Campos · resonancias</option>
+            <option value="bell-spectral">Campos · resonancia espectral</option>
+            <option value="bell-harmonic">Campos · nube armónica</option>
+            <option value="bell-constellation">Campos · constelación puntual</option>
+            <option value="bell-pulse">Campos · pulso relacional</option>
+            <option value="bell-noise">Campos · fricción y ruido</option>
+            <option value="bell-space">Campos · espacio reverberante</option>
+            <option value="bell-morph">Campos · morfología continua</option>
+            <option value="bell-mix">Campos · mezcla relacional</option>
+            <option value="relational">Campos · síntesis vectorial</option>
+            <option value="direct">Audio directo</option>
+            <option value="temperature">Temperatura</option>
+            <option value="euclidean">Distancia euclídea</option>
+            <option value="random">Azar controlado</option>
+            <option value="horizon">Viso sonoro</option>
+          </select>
+          <button class="control audio-unlock contextual-help-control" id="audioUnlock" data-en="Enable audio" data-context-help="audio-action" data-context-value="enable">Activar audio</button>
+          <button class="control contextual-help-control" id="stop" data-en="Stop sound" data-context-help="audio-action" data-context-value="stop">Detener sonido</button>
+        </div>
+      </details>
     </nav>
+
+    <button type="button" class="control language-toggle" id="languageToggle" aria-label="Cambiar idioma" title="English / Español">EN / ES</button>
+    <button class="control transport-record" id="record" title="Grabar la ventana y el sonido de MPI" aria-pressed="false">
+      <span class="record-glyph" aria-hidden="true"></span>
+      <span id="recordLabel">REC</span>
+    </button>
   </header>
+  <div id="contextHelpBubble" class="context-help" role="tooltip" hidden>
+    <strong id="contextHelpTitle"></strong>
+    <span id="contextHelpText"></span>
+  </div>
 
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy reveal">
-        <p class="kicker" data-key="heroKicker">Composer · Guitarist · Musicologist</p>
-        <h1 id="hero-title" data-key="heroTitle" data-html="true">Sound as<br><em>thought.</em></h1>
-        <p class="hero-lead" data-key="heroLead">I work across contemporary jazz, Chilean oral traditions, electroacoustic music, poetry and computational tools—building forms where listening becomes research.</p>
-        <div class="hero-links">
-          <a class="button button-solid" href="https://www.youtube.com/watch?v=2DZqKm4sblo" target="_blank" rel="noopener" data-key="watch">Watch Bruegel Sound</a>
-          <a class="button button-line" href="#work" data-key="explore">Explore selected work</a>
-        </div>
-        <div class="location-line"><span></span><p data-key="location">Madrid ↔ Chile · Available for concerts, talks and collaborations</p></div>
+  <main class="layout">
+    <section class="plot-wrap">
+      <div id="plot"></div>
+      <div id="loadingOverlay" class="loading" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <span id="loadingText">Cargando…</span>
       </div>
-
-      <figure class="hero-image reveal">
-        <img src="assets/daniel-portrait.jpg" alt="Daniel Román seated with an electric guitar in a recording studio">
-        <figcaption><span data-key="imageSource">Press portrait</span> · <a href="https://laestrategiadelcaracol.com/2025/07/daniel-roman-jazz-quintet-en-jazzene-con-bruegel-sound-entrevista/" target="_blank" rel="noopener">La Estrategia del Caracol</a></figcaption>
-      </figure>
-
-      <div class="hero-index" aria-hidden="true">
-        <span>01</span><span>JAZZ</span><span>POETRY</span><span>ARCHIVE</span><span>COMPUTATION</span>
-      </div>
+      <div id="coordinateHud" class="coordinate-hud">x — · y — · z —</div>
+      <div class="interaction-help" data-en="Drag: rotate · Pinch or wheel: zoom · Tap a node: open its record">Arrastra: gira · Pellizca o rueda: zoom · Toca un nodo: abre su ficha</div>
     </section>
 
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <span>CONTEMPORARY JAZZ</span><i>✦</i><span>ORAL TRADITIONS</span><i>✦</i><span>ELECTROACOUSTIC MUSIC</span><i>✦</i><span>POETRY</span><i>✦</i><span>COMPUTATIONAL SOUND</span><i>✦</i>
-        <span>CONTEMPORARY JAZZ</span><i>✦</i><span>ORAL TRADITIONS</span><i>✦</i><span>ELECTROACOUSTIC MUSIC</span><i>✦</i><span>POETRY</span><i>✦</i><span>COMPUTATIONAL SOUND</span><i>✦</i>
-      </div>
-    </div>
-
-    <section class="feature section" id="work">
-      <div class="section-number reveal">01 / <span data-key="featured">Featured</span></div>
-      <div class="feature-heading reveal">
-        <p class="kicker" data-key="currentProject">Current live project</p>
-        <h2>Bruegel<br><em>Sound</em></h2>
-      </div>
-
-      <figure class="feature-image reveal">
-        <img src="assets/daniel-live-reading.jpg" alt="Daniel Román reading poetry on stage while holding a guitar">
-        <figcaption>© José Luis Luna Rocafort / Tomajazz, 2025</figcaption>
-      </figure>
-
-      <div class="feature-copy reveal">
-        <p class="feature-lead" data-key="bruegelLead">An impossible encounter: jazz, electronics and poetry.</p>
-        <p data-key="bruegelBody">Built from the poems of <em>Grisalla</em> and the visual worlds of Pieter Bruegel, the project moves between composition and improvisation without turning one language into an illustration of another.</p>
-        <div class="feature-stats">
-          <div><strong>206 → 8</strong><span data-key="selectedStat">projects selected for JazzEñe 2025</span></div>
-          <div><strong>5</strong><span data-key="ensembleStat">musicians in the live ensemble</span></div>
-          <div><strong>60th</strong><span data-key="festivalStat">San Sebastián Jazzaldia</span></div>
-        </div>
-        <div class="inline-links">
-          <a href="https://www.jazzaldia.eus/es/conciertos-entradas/volver-ver-conciertos/51-pere-bujosa-trio-daniel-roman-jazz-quintet?ide=27756" target="_blank" rel="noopener" data-key="liveConcert">Watch the full Jazzaldia concert</a>
-          <a href="https://www.jazzaldia.eus/es/conciertos-entradas/3-pere-bujosa-trio-daniel-roman-jazz-quintet?ide=27756" target="_blank" rel="noopener" data-key="officialFestival">Official festival page</a>
-          <a href="https://tomajazz.com/web/daniel-roman-jazz-quintet-xi-jazzene-2025/" target="_blank" rel="noopener" data-key="photoEssay">Live photo essay</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="statement section reveal">
-      <blockquote>
-        <p data-key="quote">“I dream that listening might become the sense of the future.”</p>
-        <footer>Daniel Román · <a href="https://laestrategiadelcaracol.com/2025/07/daniel-roman-jazz-quintet-en-jazzene-con-bruegel-sound-entrevista/" target="_blank" rel="noopener">La Estrategia del Caracol, 2025</a></footer>
-      </blockquote>
-    </section>
-
-    <section class="selected section" aria-labelledby="selected-title">
-      <div class="section-number reveal">02 / <span data-key="selectedWork">Selected work</span></div>
-      <div class="selected-intro reveal">
-        <h2 id="selected-title" data-key="selectedTitle" data-html="true">Four currents.<br><em>One practice.</em></h2>
-        <p data-key="selectedIntro">A concise map of the projects that best explain the work.</p>
-      </div>
-
-      <div class="project-list">
-        <article class="project-row reveal">
-          <div class="project-code">A01</div>
-          <div class="project-title"><h3>Bruegel Sound</h3><p data-key="project1Type">Live project · 2025</p></div>
-          <p class="project-desc" data-key="project1Desc">Jazz, poetry, electronics and Chilean instruments in an immersive concert format.</p>
-          <a href="https://www.jazzaldia.eus/es/conciertos-entradas/volver-ver-conciertos/51-pere-bujosa-trio-daniel-roman-jazz-quintet?ide=27756" target="_blank" rel="noopener" aria-label="Watch the full Bruegel Sound concert at Jazzaldia"><span class="thin-arrow thin-arrow-ne" aria-hidden="true"></span></a>
-        </article>
-        <article class="project-row reveal">
-          <div class="project-code">A02</div>
-          <div class="project-title"><h3>Labio</h3><p data-key="project2Type">Album · 2021</p></div>
-          <p class="project-desc" data-key="project2Desc">An open-form jazz record shaped by improvisation, poetry and transformed traces of Chilean musical traditions.</p>
-          <a href="https://www.masjazzdigital.com/labio-primer-disco-de-daniel-roman-rodriguez-jazz-quartet-una-nueva-mirada-sobre-el-jazz-chileno/" target="_blank" rel="noopener" aria-label="Read about Labio"><span class="thin-arrow thin-arrow-ne" aria-hidden="true"></span></a>
-        </article>
-        <article class="project-row reveal" id="research">
-          <div class="project-code">R01</div>
-          <div class="project-title"><h3>Marisa Manchado</h3><p data-key="project3Type">Musicology · PhD research</p></div>
-          <p class="project-desc" data-key="project3Desc">Electroacoustic creation analysed through logostructure, mixture and symptom from a feminist perspective.</p>
-          <a href="https://espaciosonoro.tallersonoro.com/wp-content/uploads/2024/11/03.-Daniel-Roman_59_2024.docx-3.pdf" target="_blank" rel="noopener" aria-label="Read the research article"><span class="thin-arrow thin-arrow-ne" aria-hidden="true"></span></a>
-        </article>
-        <article class="project-row reveal">
-          <div class="project-code">R02</div>
-          <div class="project-title"><h3 data-key="mpiTitle">Imaginal Thinking Engine</h3><p data-key="project4Type">Digital humanities · Live research prototype</p></div>
-          <p class="project-desc" data-key="project4Desc">A system for navigating and sonifying multimodal archives as relational worlds of text, image, sound and metadata.</p>
-          <a href="#cordoba-world" aria-label="Preview the Córdoba world"><span class="thin-arrow thin-arrow-down" aria-hidden="true"></span></a>
-        </article>
-      </div>
-    </section>
-
-    <section class="mpi-showcase section" id="cordoba-world" aria-labelledby="cordoba-title">
-      <div class="mpi-head reveal">
+    <button type="button" id="panelToggle" class="panel-toggle" aria-controls="informationPanel" aria-expanded="false" title="Abrir ficha del nodo">
+      <span aria-hidden="true">⌁</span><strong>Ficha</strong>
+    </button>
+    <aside class="panel" id="informationPanel" aria-hidden="true">
+      <button type="button" id="panelClose" class="panel-close" aria-label="Cerrar ficha">×</button>
+      <section class="navigation-context" aria-label="Contexto de navegación">
         <div>
-          <p class="kicker" data-key="mpiKicker">Navigable research environment</p>
-          <h2 id="cordoba-title" data-key="cordobaTitle" data-html="true">Enter a world.<br><em>Not a menu.</em></h2>
+          <span>Contexto activo</span>
+          <strong id="navigationContext">Investigación · automática · todos los colores</strong>
         </div>
-        <p data-key="cordobaIntro">Córdoba is the first public world of the Imaginal Thinking Engine: an experimental space where images, texts and sounds can be explored through their relations.</p>
+        <span id="navigationVisible">— / — nodos</span>
+        <button type="button" id="showAllNodes" title="Mostrar el corpus completo y conservar el nodo seleccionado">Ver todos</button>
+      </section>
+      <nav class="panel-tabs" aria-label="Panel lateral">
+        <button type="button" id="mainPanelTab" class="panel-tab is-active" data-panel-tab="explore" data-en="Card">Ficha</button>
+        <button type="button" class="panel-tab" data-panel-tab="texts" data-en="Texts">Textos</button>
+      </nav>
+      <section id="exploreTab" class="panel-tab-content is-active">
+      <h2>Experiencia de navegación</h2>
+      <div class="workspace-summary">
+        <span id="workspaceBadge" class="workspace-badge">Investigación</span>
+        <p id="modePurpose">Examina fuentes, relaciones, coordenadas y trazabilidad sobre el corpus compartido.</p>
+      </div>
+      <div id="active">Cargando mundo…</div>
+      <span id="generatedBadge" class="generated-badge" hidden>GENERADO · TRAZABLE</span>
+
+      <section id="researchNodeCard" class="research-only research-node-card" aria-live="polite">
+        <div class="research-card-head">
+          <div>
+            <span>Ficha del nodo</span>
+            <h3 id="researchNodeTitle">Ningún nodo seleccionado</h3>
+          </div>
+          <button type="button" id="researchBack" disabled title="Volver al nodo consultado anteriormente">← Anterior</button>
+        </div>
+        <div id="researchNodeKinds" class="research-node-kinds"></div>
+        <section class="research-question">
+          <span>¿Qué es?</span>
+          <p id="researchWhat">Selecciona un nodo para examinarlo.</p>
+        </section>
+        <section class="research-question">
+          <span>¿De dónde procede?</span>
+          <div id="researchSource" class="research-source"><span class="empty-note">—</span></div>
+        </section>
+        <section class="research-question">
+          <span>¿A qué campo pertenece?</span>
+          <p id="researchRegion">—</p>
+        </section>
+        <section class="research-question">
+          <span>¿Por qué está relacionado?</span>
+          <p id="researchWhy">—</p>
+          <div id="researchRelations" class="research-relations"></div>
+        </section>
+        <p class="research-method-note">Las relaciones explícitas proceden del mundo construido; la proximidad vectorial se identifica como una inferencia calculada.</p>
+      </section>
+
+      <div id="mediaPreview" class="media-card" hidden>
+        <img id="mediaImage" alt="">
+        <div class="media-copy">
+          <strong id="mediaTitle"></strong>
+          <p id="mediaText"></p>
+        </div>
       </div>
 
-      <div class="mpi-window reveal">
-        <video class="mpi-video" muted loop playsinline preload="metadata" poster="assets/cordoba-poster.jpg" aria-label="Short preview of navigation through the Córdoba world">
-          <source src="assets/cordoba-loop.mp4" type="video/mp4">
-        </video>
-        <div class="mpi-window-top" aria-hidden="true">
-          <span>MPI · CÓRDOBA</span>
-          <span class="mpi-live"><i></i><span data-key="liveWorld">LIVE WORLD</span></span>
-        </div>
-        <div class="mpi-overlay">
-          <div>
-            <p class="mpi-eyebrow" data-key="cordobaEyebrow">Images · sound · documents · relations</p>
-            <h3 data-key="mpiOverlayTitle">MPI</h3><p class="mpi-overlay-subtitle" data-key="mpiOverlaySubtitle">Imaginal Thinking Engine</p>
-          </div>
-          <div class="mpi-action">
-            <div class="mpi-world-buttons">
-              <a class="button button-solid prototype-button" href="mpi/?world=cordoba" data-key="enterCordoba">Enter Córdoba</a>
-              <a class="button button-line prototype-button" href="mpi/?world=grisalla" data-key="enterGrisalla">Enter Grisalla</a>
-            </div>
-            <span data-key="integrationStatus">Two live worlds · public research demo</span>
-          </div>
-        </div>
+      <h3>Imágenes del mundo</h3>
+      <div id="imageGallery" class="image-gallery"></div>
+
+      <h3>Prompt musical del campo</h3>
+      <div class="prompt-card">
+        <p id="promptStatus" class="prompt-status">—</p>
+        <div id="promptText" class="prompt-text">—</div>
+        <button id="copyPrompt" class="mini-button" disabled>Copiar prompt</button>
       </div>
 
-      <div class="mpi-status-grid reveal" id="mpi-status">
-        <article>
-          <span>01</span>
-          <div>
-            <h3 data-key="statusNowTitle">Now · One intermodal sound world</h3>
-            <p data-key="statusNowBody">The Córdoba prototype will open as a stable, playable experience inside this website.</p>
+      <section class="composition-only">
+      <h3>Composición intermodal · CLAP</h3>
+      <div class="prompt-card intermodal-card">
+        <p id="clapStatus" class="prompt-status">Selecciona un vector para formar su campo intermodal.</p>
+        <span id="externalState" class="external-state is-offline">GPU externa sin configurar</span>
+        <div class="intermodal-metrics">
+          <span id="clapFieldMetric">—</span>
+          <span id="clapSourceMetric">—</span>
+        </div>
+        <section id="regionProfile" class="region-profile" hidden>
+          <div class="region-profile-head">
+            <span>Singularidad calculada del campo</span>
+            <strong id="regionProfileTitle">—</strong>
           </div>
+          <p id="regionProfileSummary">—</p>
+          <div id="regionProfileConcepts" class="region-profile-concepts"></div>
+          <small id="regionProfileMethod">Descripción interpretativa calculada a partir de los materiales y relaciones visibles.</small>
+        </section>
+        <label class="compact-row">
+          <span>Duración</span>
+          <select id="clapDuration" class="mini-control">
+            <option value="8">8 s · prueba rápida</option>
+            <option value="12" selected>12 s · laboratorio</option>
+            <option value="20">20 s · desarrollo</option>
+          </select>
+        </label>
+        <label class="compact-row">
+          <span>Variantes</span>
+          <select id="clapVariants" class="mini-control">
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <button id="prepareClapJob" class="mini-button contextual-help-control" data-context-help="intermodal-action" aria-describedby="contextHelpBubble" disabled>Generar música desde esta región</button>
+        <div id="clapProgress" class="clap-progress" hidden aria-live="polite">
+          <div class="clap-progress-head"><span id="clapStage">Preparando…</span><span id="clapElapsed">0 s</span></div>
+          <div class="clap-progress-track"><span id="clapProgressFill"></span></div>
+          <small id="clapProgressDetail">La petición todavía no se ha enviado.</small>
+          <ol id="clapTrace" class="clap-trace" aria-label="Trazabilidad de la composición intermodal">
+            <li data-clap-step="materials"><span>1</span><div><strong>Materiales</strong><small>Esperando selección.</small></div></li>
+            <li data-clap-step="relations"><span>2</span><div><strong>Campo relacional</strong><small>Esperando análisis.</small></div></li>
+            <li data-clap-step="clap"><span>3</span><div><strong>Espacio CLAP</strong><small>Esperando cálculo externo.</small></div></li>
+            <li data-clap-step="generation"><span>4</span><div><strong>Generación sonora</strong><small>Esperando RunPod.</small></div></li>
+            <li data-clap-step="publication"><span>5</span><div><strong>Nuevo nodo</strong><small>Esperando resultado validado.</small></div></li>
+          </ol>
+          <details id="clapProcessDetails" class="clap-process-details">
+            <summary>Ver explicación completa del proceso</summary>
+            <ol id="clapProcessLog" class="clap-process-log"></ol>
+          </details>
+          <div id="clapEvidence" class="clap-evidence" hidden></div>
+        </div>
+        <p id="clapResultNote" class="perf-note">Cada ejecución crea un nodo sonoro nuevo y conserva su procedencia. Puedes repetirla sobre la misma región o sobre una región que ya contenga resultados anteriores.</p>
+      </div>
+      </section>
+
+      <h3>Interacción</h3>
+      <div class="metric"><span>Estado</span><span id="interactionState">inicializando</span></div>
+      <label class="volume-row"><span>Volumen</span><input id="volume" type="range" min="0" max="160" value="112" step="1"><span id="volumeMetric">112 %</span></label>
+      <label class="toggle-row">
+        <input type="checkbox" id="dwellEnabled">
+        <span>Activar por permanencia</span>
+      </label>
+      <label class="compact-row">
+        <span>Demora</span>
+        <select id="dwellDelay" class="mini-control">
+          <option value="350">350 ms</option>
+          <option value="450" selected>450 ms</option>
+          <option value="500">500 ms</option>
+        </select>
+      </label>
+      <label class="toggle-row">
+        <input type="checkbox" id="secondaryFx" checked>
+        <span>Destacar grupo activado</span>
+      </label>
+      <label class="compact-row">
+        <span>Calidad gráfica</span>
+        <select id="renderQuality" class="mini-control">
+          <option value="fluid">Fluida</option>
+          <option value="balanced" selected>Equilibrada</option>
+          <option value="high">Alta resolución</option>
+        </select>
+      </label>
+      <label class="compact-row">
+        <span>Tamaño de imágenes</span>
+        <select id="imageScale" class="mini-control">
+          <option value="0.28">Casi imperceptibles</option>
+          <option value="0.62">Orientativas</option>
+          <option value="1" selected>Medias</option>
+          <option value="1.45">Grandes</option>
+          <option value="2.2">Protagonistas</option>
+        </select>
+      </label>
+      <p class="perf-note">Cada vector muestra solo una frase orientativa al acercarse o seleccionarlo. La ficha completa se abre en la pestaña «Textos».</p>
+      <label class="toggle-row">
+        <input type="checkbox" id="showLinks">
+        <span>Mostrar recorridos y relaciones</span>
+      </label>
+
+      <h3>Estado</h3>
+      <div class="metric"><span>Mundo</span><span id="worldMetric">—</span></div>
+      <div class="metric"><span>Proyección</span><span id="projectionMetric">—</span></div>
+      <div class="metric"><span>Perspectiva</span><span id="workspaceMetric">Investigación</span></div>
+      <div class="metric"><span>Escala activa</span><span id="scaleMetric">automática</span></div>
+      <div class="metric"><span>Color</span><span id="colorMetric">—</span></div>
+      <div class="metric"><span>Grupo activo</span><span id="relationGroup">—</span></div>
+      <div class="metric"><span>Carga</span><span id="loadState">inicializando</span></div>
+      <div class="metric"><span>Carga progresiva</span><span id="loadProgress">—</span></div>
+      <div class="metric"><span>Nodos visibles</span><span id="visibleProgress">—</span></div>
+      <div class="metric"><span>Perfil gráfico</span><span id="performanceProfile">—</span></div>
+      <div class="metric"><span>Modo sonoro</span><span id="modeMetric">Masas de campanas</span></div>
+      <div class="metric"><span>Registro</span><span id="recordState">inactivo</span></div>
+      <div class="metric"><span>Nodos</span><span id="nodes">—</span></div>
+      <div class="metric"><span>Audios cargados</span><span id="audios">—</span></div>
+      <div class="metric"><span>Nodo actual</span><span id="nodeId">—</span></div>
+      <div class="metric"><span>Tipo</span><span id="nodeType">—</span></div>
+      <div class="metric"><span>Coordenada X</span><span id="coordX">—</span></div>
+      <div class="metric"><span>Coordenada Y</span><span id="coordY">—</span></div>
+      <div class="metric"><span>Coordenada Z</span><span id="coordZ">—</span></div>
+      <div class="metric"><span>Campo sonoro</span><span id="audioId">—</span></div>
+      <div class="metric"><span>Procedencia</span><span id="audioProvenance">—</span></div>
+      <div class="metric"><span>Salto euclídeo</span><span id="jump">—</span></div>
+      <div class="metric"><span>Temperatura</span><span id="heat">—</span></div>
+
+      <section class="research-only">
+      <h3>Rendimiento y trazabilidad</h3>
+      <div class="metric"><span>Carga del mundo</span><span id="perfWorld">—</span></div>
+      <div class="metric"><span>Renderizado</span><span id="perfRender">—</span></div>
+      <div class="metric"><span>Búsqueda</span><span id="perfSearch">—</span></div>
+      <div class="metric"><span>Cálculo sonoro</span><span id="perfSonic">—</span></div>
+      <div class="metric"><span>Carga/decodificación</span><span id="perfDecode">—</span></div>
+      <div class="metric"><span>Inicio de audio</span><span id="perfAudioStart">—</span></div>
+      <div class="metric"><span>Actualización de interfaz</span><span id="perfUi">—</span></div>
+      <p class="perf-note">El monitor agrupa las muestras cada 750 ms. Se muestran última medición, media y p95.</p>
+      </section>
+
+      <h3>Ruta reciente</h3>
+      <ol id="route"></ol>
+      <p><span class="badge">Registro doble</span></p>
+      <p>La interfaz conserva ocho pasos; el JSON registra toda la navegación confirmada.</p>
+      </section>
+      <section id="textsTab" class="panel-tab-content" hidden>
+        <h2>Lectura opcional</h2>
+        <p class="tab-intro">La nube conserva únicamente una frase orientativa. Selecciona un vector y abre esta pestaña para consultar el fragmento completo, sus datos y su vecindario.</p>
+        <article class="text-reader">
+          <h3 id="textNodeTitle">Ningún fragmento seleccionado</h3>
+          <div id="textNodeMeta" class="text-meta">—</div>
+          <div id="textNodeBody" class="text-body">Selecciona un vector textual.</div>
         </article>
-        <article>
-          <span>02</span>
-          <div>
-            <h3 data-key="statusNextTitle">Next · Load your own worlds</h3>
-            <p data-key="statusNextBody">World upload and external processing are in development. The public site will remain a clear demonstration, not an unfinished tool.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="research-focus section">
-      <div class="research-photo reveal">
-        <img src="assets/daniel-quintet-stage.jpg" alt="Daniel Román Jazz Quintet performing at the Victoria Eugenia Theatre">
-        <span>© José Luis Luna Rocafort / Tomajazz, 2025</span>
-      </div>
-      <div class="research-copy reveal">
-        <p class="kicker" data-key="researchKicker">Research is not the backstage of the music</p>
-        <h2 data-key="researchTitle" data-html="true">It is another way<br>of <em>composing.</em></h2>
-        <p data-key="researchBody">My work connects music analysis, feminist theory, electroacoustic practices, Chilean oral traditions and computational methods. The aim is not to place theory beside sound, but to let each transform the other.</p>
-        <div class="research-topics">
-          <span data-key="topic1">Electroacoustic analysis</span>
-          <span data-key="topic2">Gender & contemporary music</span>
-          <span data-key="topic3">Canto a lo poeta</span>
-          <span data-key="topic4">Guitarrón chileno</span>
-          <span data-key="topic5">Embeddings & sonification</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="press section" id="press" aria-labelledby="press-title">
-      <div class="section-number reveal">03 / <span data-key="press">Press</span></div>
-      <div class="press-heading reveal">
-        <h2 id="press-title" data-key="pressTitle" data-html="true">Selected press,<br><em>not noise.</em></h2>
-      </div>
-      <div class="press-grid">
-        <a class="press-card reveal" href="https://fundacionsgae.org/actualidad/jazzene-anuncia-su-cartel-ocho-grupos-de-jazz-espanol-actuan-en-el-60o-jazzaldia/" target="_blank" rel="noopener">
-          <span class="press-source">Fundación SGAE</span>
-          <h3 data-key="press1">JazzEñe selects Daniel Román Jazz Quintet for the 60th Jazzaldia</h3>
-          <p>2025</p><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
-        </a>
-        <a class="press-card reveal" href="https://laestrategiadelcaracol.com/2025/07/daniel-roman-jazz-quintet-en-jazzene-con-bruegel-sound-entrevista/" target="_blank" rel="noopener">
-          <span class="press-source">La Estrategia del Caracol</span>
-          <h3 data-key="press2">Long-form interview: poetry, tradition and avant-garde in Bruegel Sound</h3>
-          <p>2025</p><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
-        </a>
-        <a class="press-card reveal" href="https://www.masjazzdigital.com/labio-primer-disco-de-daniel-roman-rodriguez-jazz-quartet-una-nueva-mirada-sobre-el-jazz-chileno/" target="_blank" rel="noopener">
-          <span class="press-source">MasJazz</span>
-          <h3 data-key="press3">Labio: a fresh, unorthodox view of Chilean jazz</h3>
-          <p>2022</p><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
-        </a>
-        <a class="press-card reveal" href="https://tomajazz.com/web/daniel-roman-jazz-quintet-xi-jazzene-2025/" target="_blank" rel="noopener">
-          <span class="press-source">Tomajazz</span>
-          <h3 data-key="press4">Daniel Román Jazz Quintet at the Victoria Eugenia Theatre</h3>
-          <p>2025</p><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
-        </a>
-      </div>
-    </section>
-
-    <section class="about section" id="about" aria-labelledby="about-title">
-      <div class="about-title reveal">
-        <div class="section-number">04 / <span data-key="about">About</span></div>
-        <h2 id="about-title">Daniel<br><em>Román</em></h2>
-      </div>
-      <div class="about-copy reveal">
-        <p class="about-lead" data-key="aboutLead">Chilean composer, guitarist and musicologist based in Madrid.</p>
-        <p data-key="aboutBody">PhD in Musicology, cum laude, from the University of Valladolid. His work moves between contemporary jazz, electroacoustic research, poetry and living oral traditions. He teaches at university level and develops artistic research where archives, technology and listening become compositional materials.</p>
-        <p data-key="aboutBody2">With MECHA, he received Chile’s Pulsar Award for Best Jazz and Fusion Album in 2018. He is the author of the poetry collection <em>Grisalla</em> and has presented artistic and academic work in Spain, Chile and across Latin America.</p>
-      </div>
-      <div class="about-facts reveal">
-        <div><strong>PhD</strong><span data-key="fact1">Musicology · cum laude</span></div>
-        <div><strong>2018</strong><span data-key="fact2">Pulsar Award</span></div>
-        <div><strong>3</strong><span data-key="fact3">released albums</span></div>
-        <div><strong>20+</strong><span data-key="fact4">years in music and education</span></div>
-      </div>
-    </section>
-
-    <section class="contact section" id="contact">
-      <div class="contact-top reveal">
-        <p class="kicker" data-key="contactKicker">Concerts · Research · Lectures · Collaborations</p>
-        <h2 data-key="contactTitle" data-html="true">Let’s make something<br><em>that does not fit.</em></h2>
-      </div>
-      <div class="contact-links reveal">
-        <a href="mailto:romanrodaniel@gmail.com"><span data-key="emailLabel">Email</span><strong>romanrodaniel@gmail.com</strong><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b></a>
-        <a href="https://www.instagram.com/romanro.daniel/" target="_blank" rel="noopener"><span>Instagram</span><strong>@romanro.daniel</strong><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b></a>
-        <a href="https://www.youtube.com/watch?v=YiBeqlPNQmM" target="_blank" rel="noopener"><span data-key="interviewLabel">Video interview</span><strong>Más Jazz Magazine</strong><b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b></a>
-      </div>
-      <footer class="site-footer">
-        <p>© <span id="year"></span> Daniel Román</p>
-        <a href="#top" data-key="backTop">Back to top ↑</a>
-        <p data-key="footerNote">Static site · no cookies · no paid hosting required</p>
-      </footer>
-    </section>
+        <h3>Fragmentos del campo activo</h3>
+        <div id="textGroupList" class="text-group-list"><span class="empty-note">—</span></div>
+      </section>
+    </aside>
   </main>
 
-  <script src="script.js?v=20260801-ui-v2"></script>
+  <dialog id="constructorDialog" class="constructor-dialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header">
+        <div>
+          <span class="dialog-kicker">Constructor de Mundos</span>
+          <h2>Ampliar <span id="constructorWorld">el mundo activo</span></h2>
+        </div>
+        <button class="dialog-close" id="constructorClose" value="cancel" aria-label="Cerrar">×</button>
+      </header>
+
+      <div class="dialog-grid">
+        <section class="constructor-card">
+          <span class="step-badge">1</span>
+          <h3>Añadir materiales</h3>
+          <p>Incorpora fuentes al mundo activo. Los originales quedan conservados en una entrega independiente antes de modificar la nube.</p>
+          <label class="file-drop" id="materialDropZone" tabindex="0">
+            <strong>Arrastra aquí archivos o carpetas</strong>
+            <span>También puedes seleccionarlos. Las nuevas tandas se añaden sin borrar las anteriores.</span>
+            <input id="materialFiles" type="file" multiple accept=".pdf,.docx,.txt,.md,.csv,.tsv,.json,.jpg,.jpeg,.png,.webp,.gif,.wav,.mp3,.m4a,.aac,.flac,.ogg,.opus,audio/*">
+          </label>
+          <div id="selectedMaterials" class="selected-materials" aria-live="polite"><span class="empty-note">Ningún material preparado.</span></div>
+          <button type="button" class="secondary-action clear-materials" id="clearMaterials" hidden>Vaciar selección</button>
+          <label class="notes-label" for="materialNotes">Nota metodológica o procedencia</label>
+          <textarea id="materialNotes" rows="4" placeholder="Qué es el material, de dónde procede y cómo debería relacionarse con Córdoba…"></textarea>
+          <button type="button" class="primary-action" id="uploadMaterials">Subir y revisar</button>
+          <div id="materialProgress" class="constructor-progress" aria-live="polite">Sin materiales seleccionados.</div>
+        </section>
+
+        <section class="constructor-card">
+          <span class="step-badge">2</span>
+          <h3>Revisar y construir</h3>
+          <p>Comprueba la extracción propuesta, excluye lo que no quieras y crea una nueva versión rápida del mundo.</p>
+          <label class="notes-label" for="segmentMode">Unidad textual aproximada</label>
+          <select id="segmentMode" class="constructor-select">
+            <option value="compact">Fragmentos breves · 900 caracteres</option>
+            <option value="balanced" selected>Fragmentos equilibrados · 1.600 caracteres</option>
+            <option value="broad">Fragmentos amplios · 2.600 caracteres</option>
+          </select>
+          <label class="notes-label" for="versionName">Nombre de esta versión</label>
+          <input id="versionName" class="constructor-input" type="text" maxlength="300" placeholder="Ej.: Córdoba · campanas y archivo">
+          <label class="notes-label" for="versionDescription">Qué cambia en este mundo</label>
+          <textarea id="versionDescription" rows="3" maxlength="4000" placeholder="Una explicación breve para reconocer esta versión más adelante. Si queda vacío, se genera automáticamente."></textarea>
+          <div id="reviewSummary" class="review-summary"><span class="empty-note">Selecciona una entrega para revisar su segmentación.</span></div>
+          <button type="button" class="primary-action" id="processBatch" disabled>Procesar materiales</button>
+          <div id="processProgress" class="constructor-progress" aria-live="polite">Esperando revisión.</div>
+
+          <h4>Entregas del mundo</h4>
+          <div id="pendingBatches" class="pending-batches"><span class="empty-note">Todavía no hay entregas.</span></div>
+          <button type="button" class="secondary-action" id="refreshBatches">Actualizar lista</button>
+        </section>
+
+        <section class="constructor-card history-card">
+          <span class="step-badge">3</span>
+          <h3>Versiones del mundo</h3>
+          <p>Reconoce la versión activa, abre estados anteriores sin modificarlos o recupera uno como versión activa. El estado actual siempre se conserva.</p>
+          <div id="historyViewingNote" class="history-viewing-note" hidden></div>
+          <div id="worldVersionHistory" class="world-version-history"><span class="empty-note">Cargando versiones…</span></div>
+          <button type="button" class="secondary-action" id="refreshHistory">Actualizar historial</button>
+        </section>
+
+        <section class="constructor-card external-card">
+          <span class="step-badge">4</span>
+          <h3>Procesamiento externo</h3>
+          <p>Conecta una GPU una sola vez. Después MPI envía la región, sigue el proceso y reincorpora la música sin Colab, descargas ni importaciones manuales.</p>
+          <div id="gpuConnectionStatus" class="constructor-progress">Comprobando configuración…</div>
+          <label class="notes-label" for="gpuEndpointId">Endpoint GPU de Runpod</label>
+          <input id="gpuEndpointId" class="constructor-input" type="text" maxlength="120" autocomplete="off" placeholder="5b7miocp3w3oem">
+          <label class="notes-label" for="gpuApiKey">Credencial API</label>
+          <input id="gpuApiKey" class="constructor-input" type="password" maxlength="500" autocomplete="new-password" placeholder="Se conserva únicamente en este Mac">
+          <button type="button" class="primary-action" id="saveGpuConfig">Guardar conexión</button>
+          <button type="button" class="secondary-action" id="testGpuConfig">Comprobar GPU</button>
+        </section>
+
+        <section class="constructor-card external-card">
+          <span class="step-badge">5</span>
+          <h3>Importar mundo procesado</h3>
+          <p>Vía de intercambio para mundos completos recalculados fuera de MPI. No es necesaria para la composición intermodal conectada.</p>
+          <label class="file-drop compact">
+            <strong>Paquete de mundo enriquecido</strong>
+            <span>Debe contener un manifest compatible.</span>
+            <input id="worldPackage" type="file" accept=".zip,application/zip">
+          </label>
+          <button type="button" class="primary-action" id="installWorld">Instalar y abrir mundo</button>
+          <div id="installProgress" class="constructor-progress" aria-live="polite">Esperando un mundo procesado.</div>
+        </section>
+
+      </div>
+
+      <footer class="dialog-footer">
+        <p><strong>Dos capas:</strong> la cartografía rápida local crea nodos, vectores y relaciones de inmediato. El informe conserva sus métodos y limitaciones para que después pueda sustituirse por un enriquecimiento multimodal sin perder la fuente original.</p>
+      </footer>
+    </form>
+  </dialog>
+
+  <dialog id="worldLibraryDialog" class="constructor-dialog world-library-dialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header">
+        <div>
+          <span class="dialog-kicker">Biblioteca de mundos</span>
+          <h2>Abrir o ampliar un mundo</h2>
+        </div>
+        <button class="dialog-close" id="worldLibraryClose" value="cancel" aria-label="Cerrar">×</button>
+      </header>
+      <div class="world-library-body">
+        <p>Cada mundo conserva sus nodos y versiones. «Añadir materiales» abre su Constructor e incorpora únicamente las fuentes nuevas.</p>
+        <div id="worldLibrary" class="world-library" aria-live="polite">
+          <span class="empty-note">Cargando mundos…</span>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="worldTrashDialog" class="constructor-dialog world-trash-dialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header">
+        <div>
+          <span class="dialog-kicker">Biblioteca de mundos</span>
+          <h2>Papelera</h2>
+        </div>
+        <button class="dialog-close" id="worldTrashClose" value="cancel" aria-label="Cerrar">×</button>
+      </header>
+      <div class="world-trash-form">
+        <section class="trash-manager-section">
+          <h3>Enviar un mundo a la papelera</h3>
+          <p>Elige el mundo que quieres retirar. Sus versiones, fuentes, imágenes y audios se conservarán para que puedas restaurarlo.</p>
+          <label class="notes-label" for="trashWorldSelect">Mundo que quieres eliminar</label>
+          <select id="trashWorldSelect" class="constructor-select"></select>
+          <button type="button" class="danger-action" id="requestWorldDelete">Mover a la papelera…</button>
+          <div id="worldTrashStatus" class="constructor-progress" aria-live="polite">Elige un mundo.</div>
+        </section>
+        <section class="trash-manager-section saved-trash-section">
+          <h3>Mundos que están en la papelera</h3>
+          <p>Puedes restaurarlos completos. La eliminación definitiva continúa protegida por una confirmación adicional.</p>
+          <div id="worldTrash" class="world-trash"><span class="empty-note">Cargando papelera…</span></div>
+          <button type="button" class="secondary-action" id="refreshTrash">Actualizar papelera</button>
+        </section>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="deleteWorldConfirmDialog" class="constructor-dialog delete-world-confirm-dialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header danger-dialog-header">
+        <div>
+          <span class="dialog-kicker">Confirmar retirada</span>
+          <h2>Este mundo irá a la papelera</h2>
+        </div>
+        <button class="dialog-close" id="deleteWorldConfirmClose" value="cancel" aria-label="Cerrar sin eliminar">×</button>
+      </header>
+      <div class="delete-world-confirm-body">
+        <div class="trash-warning-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5"/>
+          </svg>
+        </div>
+        <p id="deleteWorldConfirmText">El mundo seleccionado se moverá a una papelera recuperable.</p>
+        <p class="recoverable-note">Podrás restaurarlo más adelante con todas sus versiones y materiales.</p>
+        <button type="button" class="danger-action confirm-trash-action" id="confirmWorldDelete">Aceptar · mover a la papelera</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="newWorldDialog" class="constructor-dialog new-world-dialog">
+    <form method="dialog" class="dialog-shell">
+      <header class="dialog-header">
+        <div>
+          <span class="dialog-kicker">Biblioteca de mundos</span>
+          <h2>Crear un mundo nuevo</h2>
+        </div>
+        <button class="dialog-close" id="newWorldClose" value="cancel" aria-label="Cerrar">×</button>
+      </header>
+      <div class="new-world-form">
+        <p>El mundo nace vacío, con identidad e historial propios. Después podrás añadir textos, fotografías, documentos y audios desde el Constructor.</p>
+        <label class="notes-label" for="newWorldName">Nombre del mundo</label>
+        <input id="newWorldName" class="constructor-input" type="text" maxlength="300" placeholder="Ej.: Averroes y el intelecto material">
+        <label class="notes-label" for="newWorldDescription">Descripción</label>
+        <textarea id="newWorldDescription" rows="4" maxlength="4000" placeholder="Qué materiales y territorios formarán este mundo."></textarea>
+        <label class="notes-label" for="newWorldQuestion">Pregunta o impulso de investigación</label>
+        <textarea id="newWorldQuestion" rows="3" maxlength="4000" placeholder="Qué quieres investigar, imaginar o escuchar mediante sus relaciones."></textarea>
+        <label class="notes-label" for="newWorldSegment">Unidad textual inicial</label>
+        <select id="newWorldSegment" class="constructor-select">
+          <option value="compact">Fragmentos breves</option>
+          <option value="balanced" selected>Fragmentos equilibrados</option>
+          <option value="broad">Fragmentos amplios</option>
+        </select>
+        <button type="button" class="primary-action" id="createWorld">Crear mundo y añadir materiales</button>
+        <div id="newWorldProgress" class="constructor-progress" aria-live="polite">Esperando un nombre.</div>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript>Esta aplicación necesita JavaScript.</noscript>
+  <script>
+    if (location.protocol === 'file:') {
+      window.addEventListener('DOMContentLoaded', function () {
+        var active = document.getElementById('active');
+        var state = document.getElementById('loadState');
+        if (active) active.textContent = 'Abre start.command en macOS o start.bat en Windows. Los mundos modulares necesitan un servidor local.';
+        if (state) state.textContent = 'servidor local requerido';
+      });
+    }
+    window.addEventListener('DOMContentLoaded', function () {
+      var body = document.body;
+      var panel = document.getElementById('informationPanel');
+      var toggle = document.getElementById('panelToggle');
+      var close = document.getElementById('panelClose');
+      var menus = Array.from(document.querySelectorAll('.tool-menu'));
+
+      function setPanel(open) {
+        body.classList.toggle('panel-open', open);
+        panel.setAttribute('aria-hidden', String(!open));
+        if ('inert' in panel) panel.inert = !open;
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.title = open ? 'Ocultar ficha del nodo' : 'Abrir ficha del nodo';
+        window.setTimeout(function () {
+          window.dispatchEvent(new Event('resize'));
+        }, 260);
+      }
+
+      toggle.addEventListener('click', function () {
+        setPanel(!body.classList.contains('panel-open'));
+      });
+      close.addEventListener('click', function () { setPanel(false); });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && body.classList.contains('panel-open')) setPanel(false);
+      });
+      menus.forEach(function (menu) {
+        menu.addEventListener('toggle', function () {
+          if (!menu.open) return;
+          menus.forEach(function (other) {
+            if (other !== menu) other.open = false;
+          });
+        });
+      });
+      document.addEventListener('click', function (event) {
+        if (!event.target.closest('.tool-menu')) menus.forEach(function (menu) { menu.open = false; });
+      });
+      setPanel(false);
+    });
+  </script>
+  <script>
+    if (!Promise.allSettled) {
+      Promise.allSettled = function (items) {
+        return Promise.all(Array.from(items).map(function (item) {
+          return Promise.resolve(item).then(
+            function (value) { return { status: 'fulfilled', value: value }; },
+            function (reason) { return { status: 'rejected', reason: reason }; }
+          );
+        }));
+      };
+    }
+  </script>
+  <script type="module" src="core/app.js?v=20260801-ios-audio"></script>
 </body>
 </html>
