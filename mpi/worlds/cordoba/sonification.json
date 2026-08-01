@@ -1,0 +1,53 @@
+{
+  "format": "semantic-sound-sonification/1",
+  "version": "1.8.0-cordoba",
+  "maxVoices": 6,
+  "cacheSize": 8,
+  "crossfadeSeconds": 0.28,
+  "masterGain": 1.16,
+  "seed": 1236,
+  "modes": [
+    "bell-mass",
+    "bell-granular",
+    "bell-resonant",
+    "relational",
+    "direct",
+    "temperature",
+    "euclidean",
+    "random",
+    "horizon"
+  ],
+  "relational": {
+    "waveforms": {
+      "belongs-to-source": "sine",
+      "documentary": "triangle",
+      "text-audio": "sine",
+      "image-source": "triangle",
+      "spatial": "sine",
+      "chronological": "sawtooth",
+      "derived-from": "triangle",
+      "semantic-similarity": "sine"
+    },
+    "maxGroupNodes": 20,
+    "baseFrequency": 110,
+    "filterRange": [
+      480,
+      2600
+    ],
+    "engine": "reactive-vector-synthesizer",
+    "vectorVoices": 10,
+    "description": "El cursor activa una preescucha y el clic desarrolla un ensamblaje más denso; cada nodo modifica raíz, escala, ritmo, timbre y panorama."
+  },
+  "bellField": {
+    "sourceNode": "audio-original-0270",
+    "description": "Cada vector selecciona una zona, velocidad, envolvente, filtro y panorama de la grabación de campanas. Las relaciones regulan la superposición y la densidad.",
+    "maxGroupNodes": 20,
+    "vectorGrains": 14,
+    "reverbSeconds": 3.8,
+    "variants": [
+      "mass",
+      "granular",
+      "resonant"
+    ]
+  }
+}

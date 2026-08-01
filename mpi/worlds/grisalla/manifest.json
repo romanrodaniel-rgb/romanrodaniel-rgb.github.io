@@ -1,0 +1,39 @@
+{
+  "format": "semantic-sound-world/2",
+  "id": "grisalla",
+  "name": "Grisalla",
+  "version": "1.2.0",
+  "description": "Mundo textual y sonoro del poemario Grisalla con documentos, fragmentos y audios como nodos independientes.",
+  "method": "Embeddings y reducción calculados fuera del navegador; coordenadas y vecinos precalculados.",
+  "dimensions": 3,
+  "files": {
+    "nodes": "nodes.json",
+    "coordinates": "coordinates.json",
+    "neighbors": "neighbors.json",
+    "relations": "relations.json",
+    "sonification": "sonification.json",
+    "embeddings": "embeddings/"
+  },
+  "rendering": {
+    "labelNeighborCount": 5,
+    "visibleRelationLimit": 10,
+    "visibleRouteLimit": 36,
+    "hoverThrottleMs": 80,
+    "progressiveThreshold": 3000,
+    "chunkSize": 1000,
+    "auto2DThreshold": 1400,
+    "thumbnailMaxEdge": 384,
+    "visibleImageLimit": 10,
+    "imageCacheReleaseMs": 3500
+  },
+  "scales": {
+    "territorial": "region",
+    "documentary": "node-type",
+    "sonic": "audio-node-and-relations"
+  },
+  "audio": {
+    "count": 48,
+    "maxVoices": 3,
+    "cacheSize": 14
+  }
+}

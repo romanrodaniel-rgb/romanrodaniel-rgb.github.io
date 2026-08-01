@@ -1,0 +1,1 @@
+{"format":"semantic-sound-sonification/1","version":"1.2.0","maxVoices":3,"cacheSize":14,"crossfadeSeconds":0.28,"masterGain":0.82,"seed":948271,"modes":["direct","temperature","euclidean","random","horizon"],"note":"El navegador transforma y mezcla materiales existentes; no calcula embeddings ni genera audio mediante IA."}

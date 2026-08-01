@@ -1,0 +1,3891 @@
+{
+  "format": "semantic-sound-nodes/2",
+  "nodes": [
+    {
+      "id": 0,
+      "type": "text-fragment",
+      "label": "¿qué sonido se comporta como analogía de la luz? bosques grises en el volumen de la sombra",
+      "text": "¿qué sonido se comporta como analogía de la luz? bosques grises en el volumen de la sombra",
+      "metadata": {
+        "audioAlignmentDistance": 0.9200232730230804,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 1,
+      "type": "text-fragment",
+      "label": "mis manos dividen presurosas rescatando a un animal rabioso",
+      "text": "mis manos dividen presurosas rescatando a un animal rabioso",
+      "metadata": {
+        "audioAlignmentDistance": 0.4726646122907904,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text-fragment",
+      "label": "un observador se aleja del mundo al momento de mesurarlo viajan los insectos deformando la ciénaga",
+      "text": "un observador se aleja del mundo al momento de mesurarlo viajan los insectos deformando la ciénaga",
+      "metadata": {
+        "audioAlignmentDistance": 0.6105623946551254,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text-fragment",
+      "label": "la naturaleza duerme en la fragilidad del viento",
+      "text": "la naturaleza duerme en la fragilidad del viento",
+      "metadata": {
+        "audioAlignmentDistance": 0.9374605980333431,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text-fragment",
+      "label": "pero se puede pegar el dibujo de una manzana en su mansedumbre y susurrar sin miedo la palabra hambre",
+      "text": "pero se puede pegar el dibujo de una manzana en su mansedumbre y susurrar sin miedo la palabra hambre",
+      "metadata": {
+        "audioAlignmentDistance": 0.8441035962827923,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text-fragment",
+      "label": "he tragado mis labios amainan mientras modulan vuelvo al asunto del aire",
+      "text": "he tragado mis labios amainan mientras modulan vuelvo al asunto del aire",
+      "metadata": {
+        "audioAlignmentDistance": 0.4169747443505212,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text-fragment",
+      "label": "porque las pezuñas del perro ritman cuando enmudecen imagino los colores del agua en su caída",
+      "text": "porque las pezuñas del perro ritman cuando enmudecen imagino los colores del agua en su caída",
+      "metadata": {
+        "audioAlignmentDistance": 0.6006626128883844,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text-fragment",
+      "label": "una membrana percibe flujos, tejidos",
+      "text": "una membrana percibe flujos, tejidos",
+      "metadata": {
+        "audioAlignmentDistance": 0.5324073726944888,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text-fragment",
+      "label": "pero poco puede ser dicho a partir de ese simple movimiento una onda es representada y se desvanece",
+      "text": "pero poco puede ser dicho a partir de ese simple movimiento una onda es representada y se desvanece",
+      "metadata": {
+        "audioAlignmentDistance": 0.6647108716882212,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text-fragment",
+      "label": "la mano dibuja su final",
+      "text": "la mano dibuja su final",
+      "metadata": {
+        "audioAlignmentDistance": 0.4928691536313999,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text-fragment",
+      "label": "diminutos gestos guían la gradiente el barro vibra frente al nudo",
+      "text": "diminutos gestos guían la gradiente el barro vibra frente al nudo",
+      "metadata": {
+        "audioAlignmentDistance": 0.24843561069036388,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text-fragment",
+      "label": "vaho de lo múltiple",
+      "text": "vaho de lo múltiple",
+      "metadata": {
+        "audioAlignmentDistance": 0.6187793500726998,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text-fragment",
+      "label": "la niebla se derrama sobre el paisaje minúsculos granos",
+      "text": "la niebla se derrama sobre el paisaje minúsculos granos",
+      "metadata": {
+        "audioAlignmentDistance": 0.2801017972495487,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text-fragment",
+      "label": "matices degradan hacia lo verde",
+      "text": "matices degradan hacia lo verde",
+      "metadata": {
+        "audioAlignmentDistance": 0.1717919207906311,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text-fragment",
+      "label": "el ojo es un cuenco rodeado de sombras que obstaculizan su diámetro",
+      "text": "el ojo es un cuenco rodeado de sombras que obstaculizan su diámetro",
+      "metadata": {
+        "audioAlignmentDistance": 0.7987870422686935,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text-fragment",
+      "label": "en pocos minutos el silencio describe su fracaso con los puños el tímpano agoniza",
+      "text": "en pocos minutos el silencio describe su fracaso con los puños el tímpano agoniza",
+      "metadata": {
+        "audioAlignmentDistance": 1.2696792373302228,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text-fragment",
+      "label": "las superficies tiemblan en diferente grado e intensidad colores de vagos reflejos",
+      "text": "las superficies tiemblan en diferente grado e intensidad colores de vagos reflejos",
+      "metadata": {
+        "audioAlignmentDistance": 1.0036922378127446,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text-fragment",
+      "label": "de azul se tiñe la totalidad del paisaje",
+      "text": "de azul se tiñe la totalidad del paisaje",
+      "metadata": {
+        "audioAlignmentDistance": 1.2654839267347084,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text-fragment",
+      "label": "resbala el aroma del amarillo en los girasoles aceite de nuez o linaza",
+      "text": "resbala el aroma del amarillo en los girasoles aceite de nuez o linaza",
+      "metadata": {
+        "audioAlignmentDistance": 1.7299550732118705,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text-fragment",
+      "label": "para estampar simulacros de luz",
+      "text": "para estampar simulacros de luz",
+      "metadata": {
+        "audioAlignmentDistance": 0.4972864928898312,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 20,
+      "type": "text-fragment",
+      "label": "contrae el aire tibio que refracta con violencia desde mi cabeza",
+      "text": "contrae el aire tibio que refracta con violencia desde mi cabeza",
+      "metadata": {
+        "audioAlignmentDistance": 0.5882238053329132,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text-fragment",
+      "label": "recuerdos humedecen la fronda",
+      "text": "recuerdos humedecen la fronda",
+      "metadata": {
+        "audioAlignmentDistance": 0.4355833003201048,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 22,
+      "type": "text-fragment",
+      "label": "el corazón desaloja su ingenuidad",
+      "text": "el corazón desaloja su ingenuidad",
+      "metadata": {
+        "audioAlignmentDistance": 1.2507575869084053,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 23,
+      "type": "text-fragment",
+      "label": "sobra tiempo para entumirse ante los días",
+      "text": "sobra tiempo para entumirse ante los días",
+      "metadata": {
+        "audioAlignmentDistance": 1.18456145467987,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 24,
+      "type": "text-fragment",
+      "label": "cargado de cenizas",
+      "text": "cargado de cenizas",
+      "metadata": {
+        "audioAlignmentDistance": 1.4163426587656505,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 25,
+      "type": "text-fragment",
+      "label": "el torso guía trayectos alucinados",
+      "text": "el torso guía trayectos alucinados",
+      "metadata": {
+        "audioAlignmentDistance": 0.5236791048350561,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 26,
+      "type": "text-fragment",
+      "label": "caminaba espejos quitando los ojos de la lluvia mi cabeza grita cerro abajo",
+      "text": "caminaba espejos quitando los ojos de la lluvia mi cabeza grita cerro abajo",
+      "metadata": {
+        "audioAlignmentDistance": 0.508204857510802,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 27,
+      "type": "text-fragment",
+      "label": "dejé de dormir para escuchar los crujidos acaricio al perro que se ladra a sí mismo",
+      "text": "dejé de dormir para escuchar los crujidos acaricio al perro que se ladra a sí mismo",
+      "metadata": {
+        "audioAlignmentDistance": 0.8168527142233278,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 28,
+      "type": "text-fragment",
+      "label": "¿cuántas voces retraigo para dejar de oír? una mujer silenciosa olvida su dolor",
+      "text": "¿cuántas voces retraigo para dejar de oír? una mujer silenciosa olvida su dolor",
+      "metadata": {
+        "audioAlignmentDistance": 0.7846760500824452,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 29,
+      "type": "text-fragment",
+      "label": "hay órganos insensibles pero el hígado deja de funcionar sobreviviremos celebrando la posibilidad de untar en leche remedios amargos de plantas venenosas",
+      "text": "hay órganos insensibles pero el hígado deja de funcionar sobreviviremos celebrando la posibilidad de untar en leche remedios amargos de plantas venenosas",
+      "metadata": {
+        "audioAlignmentDistance": 0.5632632765342245,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 30,
+      "type": "text-fragment",
+      "label": "teñir velando",
+      "text": "teñir velando",
+      "metadata": {
+        "audioAlignmentDistance": 0.5583572110498446,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 31,
+      "type": "text-fragment",
+      "label": "canto pausado del gesto desierto el color",
+      "text": "canto pausado del gesto desierto el color",
+      "metadata": {
+        "audioAlignmentDistance": 0.7238079012184985,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 32,
+      "type": "text-fragment",
+      "label": "veladura del óleo traslúcido",
+      "text": "veladura del óleo traslúcido",
+      "metadata": {
+        "audioAlignmentDistance": 2.096824323655355,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 33,
+      "type": "text-fragment",
+      "label": "en el intersticio de los cuerpos se puede distinguir la mano que discurre dos amigos se reúnen para simplificar el trabajo",
+      "text": "en el intersticio de los cuerpos se puede distinguir la mano que discurre dos amigos se reúnen para simplificar el trabajo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5685834333512544,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 34,
+      "type": "text-fragment",
+      "label": "mientras sustraen el tiempo de bosques y cornamentas campesinos que avanzan hacia su centro",
+      "text": "mientras sustraen el tiempo de bosques y cornamentas campesinos que avanzan hacia su centro",
+      "metadata": {
+        "audioAlignmentDistance": 0.2468151277810743,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 35,
+      "type": "text-fragment",
+      "label": "las alas de las libélulas se untan en el papel",
+      "text": "las alas de las libélulas se untan en el papel",
+      "metadata": {
+        "audioAlignmentDistance": 1.0134657985548408,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 36,
+      "type": "text-fragment",
+      "label": "algunos científicos recorren nuevos mundos a tientas",
+      "text": "algunos científicos recorren nuevos mundos a tientas",
+      "metadata": {
+        "audioAlignmentDistance": 0.3655310268042602,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 37,
+      "type": "text-fragment",
+      "label": "los miniaturistas acompañan con sus cuadernos de dibujo cada pintor tiene su banco de imágenes",
+      "text": "los miniaturistas acompañan con sus cuadernos de dibujo cada pintor tiene su banco de imágenes",
+      "metadata": {
+        "audioAlignmentDistance": 0.5345608151188289,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 38,
+      "type": "text-fragment",
+      "label": "el cruce de los Alpes o leones descoloridos tardíos tulipanes florecientes",
+      "text": "el cruce de los Alpes o leones descoloridos tardíos tulipanes florecientes",
+      "metadata": {
+        "audioAlignmentDistance": 1.9182651317783135,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 39,
+      "type": "text-fragment",
+      "label": "el lóbulo tendrá fragmentos del sol",
+      "text": "el lóbulo tendrá fragmentos del sol",
+      "metadata": {
+        "audioAlignmentDistance": 0.875973215191095,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 40,
+      "type": "text-fragment",
+      "label": "mientras comento sobre los días nublados y las olas de siete metros cromatismos que amplifican o reducen la porosidad de lo audible los objetos suenan el clímax de la brisa o su abandono",
+      "text": "mientras comento sobre los días nublados y las olas de siete metros cromatismos que amplifican o reducen la porosidad de lo audible los objetos suenan el clímax de la brisa o su abandono",
+      "metadata": {
+        "audioAlignmentDistance": 0.5554143240214425,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 41,
+      "type": "text-fragment",
+      "label": "mi madre grita lanzando una jauría de flores",
+      "text": "mi madre grita lanzando una jauría de flores",
+      "metadata": {
+        "audioAlignmentDistance": 0.9116975132422472,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 42,
+      "type": "text-fragment",
+      "label": "nos ocultamos bajo el mesón y la llama flota en el líquido por la mañana las camas parecen de acero",
+      "text": "nos ocultamos bajo el mesón y la llama flota en el líquido por la mañana las camas parecen de acero",
+      "metadata": {
+        "audioAlignmentDistance": 0.425563738912273,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 43,
+      "type": "text-fragment",
+      "label": "recomiendan mirar los cuadros con lupa",
+      "text": "recomiendan mirar los cuadros con lupa",
+      "metadata": {
+        "audioAlignmentDistance": 1.1576002016987332,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 44,
+      "type": "text-fragment",
+      "label": "las flores se equivocan de color para quien intenta retratarlas Flandes cabe en un rectángulo de uno por cinco",
+      "text": "las flores se equivocan de color para quien intenta retratarlas Flandes cabe en un rectángulo de uno por cinco",
+      "metadata": {
+        "audioAlignmentDistance": 0.47975036346598704,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 45,
+      "type": "text-fragment",
+      "label": "la flor destila su resonancia",
+      "text": "la flor destila su resonancia",
+      "metadata": {
+        "audioAlignmentDistance": 0.3376023827859667,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 46,
+      "type": "text-fragment",
+      "label": "aunque ha sido apresada por el nombre",
+      "text": "aunque ha sido apresada por el nombre",
+      "metadata": {
+        "audioAlignmentDistance": 0.4831774786002421,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 47,
+      "type": "text-fragment",
+      "label": "el signo del fabricante de retablos traspasa la escena dos manos se juntan como águilas bicéfalas",
+      "text": "el signo del fabricante de retablos traspasa la escena dos manos se juntan como águilas bicéfalas",
+      "metadata": {
+        "audioAlignmentDistance": 1.2771210345238386,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 48,
+      "type": "text-fragment",
+      "label": "basta una pincelada para difuminar el humo del volcán",
+      "text": "basta una pincelada para difuminar el humo del volcán",
+      "metadata": {
+        "audioAlignmentDistance": 1.0854375566544565,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 49,
+      "type": "text-fragment",
+      "label": "la pintura del mármol se puede mascar con las pinzas de un insecto flores de nuevo o espinas referidas a Cristo",
+      "text": "la pintura del mármol se puede mascar con las pinzas de un insecto flores de nuevo o espinas referidas a Cristo",
+      "metadata": {
+        "audioAlignmentDistance": 0.7115414494691744,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 50,
+      "type": "text-fragment",
+      "label": "Rubens disuelve la silueta",
+      "text": "Rubens disuelve la silueta",
+      "metadata": {
+        "audioAlignmentDistance": 0.34361638521384913,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 51,
+      "type": "text-fragment",
+      "label": "el fondo se enmascara invadido de sombra",
+      "text": "el fondo se enmascara invadido de sombra",
+      "metadata": {
+        "audioAlignmentDistance": 0.5415634668832863,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 52,
+      "type": "text-fragment",
+      "label": "los paisajes resaltan la lejana arquitectura geométrica del pueblo cuatro puntos de fuga para diluir los cauces",
+      "text": "los paisajes resaltan la lejana arquitectura geométrica del pueblo cuatro puntos de fuga para diluir los cauces",
+      "metadata": {
+        "audioAlignmentDistance": 0.8311652132054759,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 53,
+      "type": "text-fragment",
+      "label": "ligando el ojo en dos partes antagónicas",
+      "text": "ligando el ojo en dos partes antagónicas",
+      "metadata": {
+        "audioAlignmentDistance": 0.25551048483000016,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 54,
+      "type": "text-fragment",
+      "label": "¿cuántas capas pueden solaparse sin distorsionar el sentido? ciertos colores dañan las pupilas",
+      "text": "¿cuántas capas pueden solaparse sin distorsionar el sentido? ciertos colores dañan las pupilas",
+      "metadata": {
+        "audioAlignmentDistance": 0.6054306100014909,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 55,
+      "type": "text-fragment",
+      "label": "bajo el agua nos preguntamos sobre la espesura del grito",
+      "text": "bajo el agua nos preguntamos sobre la espesura del grito",
+      "metadata": {
+        "audioAlignmentDistance": 0.6924835217915922,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 56,
+      "type": "text-fragment",
+      "label": "pero en la superficie respiramos ingenuos los verdes de la pradera si pudiera manchar el aire con las manos chorreadas de aceite escucharías el arrullo de las hojas pálidas y exhaustas",
+      "text": "pero en la superficie respiramos ingenuos los verdes de la pradera si pudiera manchar el aire con las manos chorreadas de aceite escucharías el arrullo de las hojas pálidas y exhaustas",
+      "metadata": {
+        "audioAlignmentDistance": 0.733807542792271,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 57,
+      "type": "text-fragment",
+      "label": "los nombres comenzaron a desperdigarse",
+      "text": "los nombres comenzaron a desperdigarse",
+      "metadata": {
+        "audioAlignmentDistance": 3.091324614152196,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 58,
+      "type": "text-fragment",
+      "label": "solo dos colores fueron necesarios para describir la fantasmagoría habitaba el círculo de un lugar que expulsa",
+      "text": "solo dos colores fueron necesarios para describir la fantasmagoría habitaba el círculo de un lugar que expulsa",
+      "metadata": {
+        "audioAlignmentDistance": 0.45239734320974884,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 59,
+      "type": "text-fragment",
+      "label": "de mano en mano la piel manchada me olvida mirar parece un acto desesperado encumbraba un volantín desde el tejado",
+      "text": "de mano en mano la piel manchada me olvida mirar parece un acto desesperado encumbraba un volantín desde el tejado",
+      "metadata": {
+        "audioAlignmentDistance": 0.5225716896662312,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 60,
+      "type": "text-fragment",
+      "label": "cuidando de pisar las tablas entre las ondulaciones las piedras que presionan contra el viento",
+      "text": "cuidando de pisar las tablas entre las ondulaciones las piedras que presionan contra el viento",
+      "metadata": {
+        "audioAlignmentDistance": 0.8104291825706191,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 61,
+      "type": "text-fragment",
+      "label": "dejó de subirse a los árboles y comenzó a comerse las uñas mientras cuidaba que nadie robara los zapatos de su padre nadie escuchó como rumiaba",
+      "text": "dejó de subirse a los árboles y comenzó a comerse las uñas mientras cuidaba que nadie robara los zapatos de su padre nadie escuchó como rumiaba",
+      "metadata": {
+        "audioAlignmentDistance": 0.6813007655508506,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 62,
+      "type": "text-fragment",
+      "label": "las palabras se abren como madera mojada",
+      "text": "las palabras se abren como madera mojada",
+      "metadata": {
+        "audioAlignmentDistance": 0.683843331723344,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 63,
+      "type": "text-fragment",
+      "label": "¿si el silencio fuera un color?",
+      "text": "¿si el silencio fuera un color?",
+      "metadata": {
+        "audioAlignmentDistance": 0.39718796403573214,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 64,
+      "type": "text-fragment",
+      "label": "la electricidad que arrastran los objetos mostrando el verde olivo en ausencia de luz",
+      "text": "la electricidad que arrastran los objetos mostrando el verde olivo en ausencia de luz",
+      "metadata": {
+        "audioAlignmentDistance": 0.602104454778181,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 65,
+      "type": "text-fragment",
+      "label": "la aristocracia pide faisanes en sus cuadros aves de caza, plumajes clavados de sangre",
+      "text": "la aristocracia pide faisanes en sus cuadros aves de caza, plumajes clavados de sangre",
+      "metadata": {
+        "audioAlignmentDistance": 0.4567905531085992,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 66,
+      "type": "text-fragment",
+      "label": "los animales representan el desparpajo de la propiedad el contraste reafirma el miedo a perderlo todo",
+      "text": "los animales representan el desparpajo de la propiedad el contraste reafirma el miedo a perderlo todo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5349171774333717,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 67,
+      "type": "text-fragment",
+      "label": "un hombre arrastra su arado",
+      "text": "un hombre arrastra su arado",
+      "metadata": {
+        "audioAlignmentDistance": 0.270652415129934,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 68,
+      "type": "text-fragment",
+      "label": "Bruegel el campesino se camufla entre la muchedumbre cuadros de cuadros de David Teniers el joven",
+      "text": "Bruegel el campesino se camufla entre la muchedumbre cuadros de cuadros de David Teniers el joven",
+      "metadata": {
+        "audioAlignmentDistance": 0.615436954207876,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 69,
+      "type": "text-fragment",
+      "label": "la Revolución francesa emerge en el color que vela la carne",
+      "text": "la Revolución francesa emerge en el color que vela la carne",
+      "metadata": {
+        "audioAlignmentDistance": 0.3542477928239863,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 70,
+      "type": "text-fragment",
+      "label": "para quien se oculta",
+      "text": "para quien se oculta",
+      "metadata": {
+        "audioAlignmentDistance": 0.2845632412787409,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 71,
+      "type": "text-fragment",
+      "label": "la madeja y el barro cuecen el caparazón",
+      "text": "la madeja y el barro cuecen el caparazón",
+      "metadata": {
+        "audioAlignmentDistance": 0.33723924178709186,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 72,
+      "type": "text-fragment",
+      "label": "el río como labios que terminan de pronunciar un monosílabo atraviesa las dos dimensiones abismadas de la perspectiva",
+      "text": "el río como labios que terminan de pronunciar un monosílabo atraviesa las dos dimensiones abismadas de la perspectiva",
+      "metadata": {
+        "audioAlignmentDistance": 0.46021606728318415,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 73,
+      "type": "text-fragment",
+      "label": "las montañas se yerguen quemadas",
+      "text": "las montañas se yerguen quemadas",
+      "metadata": {
+        "audioAlignmentDistance": 0.43752267662203276,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 74,
+      "type": "text-fragment",
+      "label": "pinceladas transparentes aglutinan el caos del límite Bruegel se autorretrata como un bufón",
+      "text": "pinceladas transparentes aglutinan el caos del límite Bruegel se autorretrata como un bufón",
+      "metadata": {
+        "audioAlignmentDistance": 0.9895777097059287,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 75,
+      "type": "text-fragment",
+      "label": "oculto bajo la mesa",
+      "text": "oculto bajo la mesa",
+      "metadata": {
+        "audioAlignmentDistance": 0.8653627770091147,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 76,
+      "type": "text-fragment",
+      "label": "fingido mármol del marco que cierra el tríptico",
+      "text": "fingido mármol del marco que cierra el tríptico",
+      "metadata": {
+        "audioAlignmentDistance": 0.8762505266270565,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 77,
+      "type": "text-fragment",
+      "label": "cruzo el umbral que empuja el trayecto",
+      "text": "cruzo el umbral que empuja el trayecto",
+      "metadata": {
+        "audioAlignmentDistance": 0.5422130220051257,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 78,
+      "type": "text-fragment",
+      "label": "el muro se descascara en láminas amarillas",
+      "text": "el muro se descascara en láminas amarillas",
+      "metadata": {
+        "audioAlignmentDistance": 0.18413530017485294,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 79,
+      "type": "text-fragment",
+      "label": "los canarios viven en pareja o mueren de soledad cuelgan del tragaluz",
+      "text": "los canarios viven en pareja o mueren de soledad cuelgan del tragaluz",
+      "metadata": {
+        "audioAlignmentDistance": 1.363565077106357,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 80,
+      "type": "text-fragment",
+      "label": "¿que sustancia emana del color si el concreto y el trino llevan al lugar del destierro?",
+      "text": "¿que sustancia emana del color si el concreto y el trino llevan al lugar del destierro?",
+      "metadata": {
+        "audioAlignmentDistance": 1.0157117739969175,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 81,
+      "type": "text-fragment",
+      "label": "la jaula es cubierta por las noches, pero los pájaros siguen ahí sus pulsaciones resuenan",
+      "text": "la jaula es cubierta por las noches, pero los pájaros siguen ahí sus pulsaciones resuenan",
+      "metadata": {
+        "audioAlignmentDistance": 0.6608893875565859,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 82,
+      "type": "text-fragment",
+      "label": "cambian de color",
+      "text": "cambian de color",
+      "metadata": {
+        "audioAlignmentDistance": 0.5188220331523197,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 83,
+      "type": "text-fragment",
+      "label": "su canto no se detiene",
+      "text": "su canto no se detiene",
+      "metadata": {
+        "audioAlignmentDistance": 0.5133377423556742,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 84,
+      "type": "text-fragment",
+      "label": "fisuras que no dejan de avanzar",
+      "text": "fisuras que no dejan de avanzar",
+      "metadata": {
+        "audioAlignmentDistance": 0.6143410978984242,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 85,
+      "type": "text-fragment",
+      "label": "la pared se confunde con el plumaje y el cielo desgastado vi como se deslizaban las gotas por el lomo",
+      "text": "la pared se confunde con el plumaje y el cielo desgastado vi como se deslizaban las gotas por el lomo",
+      "metadata": {
+        "audioAlignmentDistance": 0.3647568996360404,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 86,
+      "type": "text-fragment",
+      "label": "el muro cada vez más gris neutralidad de la función o particularidades del tono",
+      "text": "el muro cada vez más gris neutralidad de la función o particularidades del tono",
+      "metadata": {
+        "audioAlignmentDistance": 0.7829382243087812,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 87,
+      "type": "text-fragment",
+      "label": "la familia es arrinconada por las máquinas de trabajo mientras la jaula permanece invisible",
+      "text": "la familia es arrinconada por las máquinas de trabajo mientras la jaula permanece invisible",
+      "metadata": {
+        "audioAlignmentDistance": 0.3466685074809939,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 88,
+      "type": "text-fragment",
+      "label": "el sol entorpece su crecimiento las hojas se enredan en la corteza la mitad de ellas sobra",
+      "text": "el sol entorpece su crecimiento las hojas se enredan en la corteza la mitad de ellas sobra",
+      "metadata": {
+        "audioAlignmentDistance": 0.4646869930058123,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 89,
+      "type": "text-fragment",
+      "label": "y nada de lo que entienda",
+      "text": "y nada de lo que entienda",
+      "metadata": {
+        "audioAlignmentDistance": 0.6067046571134875,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 90,
+      "type": "text-fragment",
+      "label": "cambiará el paisaje que estorba mi ventana",
+      "text": "cambiará el paisaje que estorba mi ventana",
+      "metadata": {
+        "audioAlignmentDistance": 0.27890528549291593,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 91,
+      "type": "text-fragment",
+      "label": "escucha el húmedo trazo opacidad no es oposición",
+      "text": "escucha el húmedo trazo opacidad no es oposición",
+      "metadata": {
+        "audioAlignmentDistance": 0.6119758501794347,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 92,
+      "type": "text-fragment",
+      "label": "continuidad del brillo agobiando de claridad estas pupilas el ojo destemplado irradia",
+      "text": "continuidad del brillo agobiando de claridad estas pupilas el ojo destemplado irradia",
+      "metadata": {
+        "audioAlignmentDistance": 0.8051868109471859,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 93,
+      "type": "text-fragment",
+      "label": "formas boschianas permanecen en los gestos se aprende del hurto",
+      "text": "formas boschianas permanecen en los gestos se aprende del hurto",
+      "metadata": {
+        "audioAlignmentDistance": 1.557813958238414,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 94,
+      "type": "text-fragment",
+      "label": "el oficio impide profundidad, pero hay quienes insisten en ella una mano dibuja paisajes mientras otra carga la silueta",
+      "text": "el oficio impide profundidad, pero hay quienes insisten en ella una mano dibuja paisajes mientras otra carga la silueta",
+      "metadata": {
+        "audioAlignmentDistance": 0.2531339339811622,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 95,
+      "type": "text-fragment",
+      "label": "pintaban sólo el centro de la libélula las alas literalmente pegadas",
+      "text": "pintaban sólo el centro de la libélula las alas literalmente pegadas",
+      "metadata": {
+        "audioAlignmentDistance": 0.4568212912964903,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 96,
+      "type": "text-fragment",
+      "label": "un hombre común su papada",
+      "text": "un hombre común su papada",
+      "metadata": {
+        "audioAlignmentDistance": 0.4369088884173047,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 97,
+      "type": "text-fragment",
+      "label": "ápices de barba",
+      "text": "ápices de barba",
+      "metadata": {
+        "audioAlignmentDistance": 1.0283911497489844,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 98,
+      "type": "text-fragment",
+      "label": "ese mismo hombre con sombrero",
+      "text": "ese mismo hombre con sombrero",
+      "metadata": {
+        "audioAlignmentDistance": 0.19132165279767346,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 99,
+      "type": "text-fragment",
+      "label": "podría representar la tragedia en un cuadro religioso ser una simple coincidencia del detalle",
+      "text": "podría representar la tragedia en un cuadro religioso ser una simple coincidencia del detalle",
+      "metadata": {
+        "audioAlignmentDistance": 0.5192493404139262,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 100,
+      "type": "text-fragment",
+      "label": "redimir el trasfondo para develar la naturaleza del color nada expresa el joven orante ni su melena",
+      "text": "redimir el trasfondo para develar la naturaleza del color nada expresa el joven orante ni su melena",
+      "metadata": {
+        "audioAlignmentDistance": 0.690297312119781,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 101,
+      "type": "text-fragment",
+      "label": "la lupa reduce el entorno a la mudez",
+      "text": "la lupa reduce el entorno a la mudez",
+      "metadata": {
+        "audioAlignmentDistance": 0.6417964351739026,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 102,
+      "type": "text-fragment",
+      "label": "nuestra fantasía se resume a la potencia del retablo",
+      "text": "nuestra fantasía se resume a la potencia del retablo",
+      "metadata": {
+        "audioAlignmentDistance": 1.3857047932706679,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 103,
+      "type": "text-fragment",
+      "label": "demasiadas estaciones desandando indiferencia si el calor atormenta con su habitual optimismo",
+      "text": "demasiadas estaciones desandando indiferencia si el calor atormenta con su habitual optimismo",
+      "metadata": {
+        "audioAlignmentDistance": 0.29651598083030567,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 104,
+      "type": "text-fragment",
+      "label": "los dedos del pie se ennegrecen y las uñas opacan las pisadas filamentos de un tren atravesando la estepa",
+      "text": "los dedos del pie se ennegrecen y las uñas opacan las pisadas filamentos de un tren atravesando la estepa",
+      "metadata": {
+        "audioAlignmentDistance": 0.3384199595553995,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 105,
+      "type": "text-fragment",
+      "label": "recuerdo a Gramsci escribiendo tiernamente cartas a su hijo interrumpido por el hielo que asciende al metal que lo fragmenta",
+      "text": "recuerdo a Gramsci escribiendo tiernamente cartas a su hijo interrumpido por el hielo que asciende al metal que lo fragmenta",
+      "metadata": {
+        "audioAlignmentDistance": 0.47878842342486083,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 106,
+      "type": "text-fragment",
+      "label": "los bosques rezuman su muerte",
+      "text": "los bosques rezuman su muerte",
+      "metadata": {
+        "audioAlignmentDistance": 1.843508443667004,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 107,
+      "type": "text-fragment",
+      "label": "¿cuántas vueltas se dan girando alrededor mientras los gusanos se alimentan de su savia? caracoles presionando el caparazón",
+      "text": "¿cuántas vueltas se dan girando alrededor mientras los gusanos se alimentan de su savia? caracoles presionando el caparazón",
+      "metadata": {
+        "audioAlignmentDistance": 0.7428544141859311,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 108,
+      "type": "text-fragment",
+      "label": "como si el halo de los pájaros fuera perceptible al momento de quitar la tela de las palabras tiemblo sin conocer el origen",
+      "text": "como si el halo de los pájaros fuera perceptible al momento de quitar la tela de las palabras tiemblo sin conocer el origen",
+      "metadata": {
+        "audioAlignmentDistance": 0.6661696608253451,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 109,
+      "type": "text-fragment",
+      "label": "veo los surcos de la alfombra",
+      "text": "veo los surcos de la alfombra",
+      "metadata": {
+        "audioAlignmentDistance": 1.4155982524059276,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 110,
+      "type": "text-fragment",
+      "label": "que fue plegada en el rincón de un armario diferentes dobleces fijan la silueta dorada de la flor",
+      "text": "que fue plegada en el rincón de un armario diferentes dobleces fijan la silueta dorada de la flor",
+      "metadata": {
+        "audioAlignmentDistance": 0.20057288850519409,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 111,
+      "type": "text-fragment",
+      "label": "podría ser blanca la representación de lo ajado o simplemente esas hebras desgastadas pierden opacidad",
+      "text": "podría ser blanca la representación de lo ajado o simplemente esas hebras desgastadas pierden opacidad",
+      "metadata": {
+        "audioAlignmentDistance": 0.4684323104519497,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 112,
+      "type": "text-fragment",
+      "label": "resecas las líneas de la mano que se abren a la carne las rodillas partidas de grava chorrean",
+      "text": "resecas las líneas de la mano que se abren a la carne las rodillas partidas de grava chorrean",
+      "metadata": {
+        "audioAlignmentDistance": 0.2802495531793661,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 113,
+      "type": "text-fragment",
+      "label": "como si en ellas viviera un ciruelo maduro espero que revienten antes de tocar el piso defraudando la física de la luz",
+      "text": "como si en ellas viviera un ciruelo maduro espero que revienten antes de tocar el piso defraudando la física de la luz",
+      "metadata": {
+        "audioAlignmentDistance": 0.39961635200943785,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 114,
+      "type": "text-fragment",
+      "label": "el fuego y el muro rapiñan la distancia aviva el abismo ante los cuerpos tutelados ínfimos los ojos del segundo navegante",
+      "text": "el fuego y el muro rapiñan la distancia aviva el abismo ante los cuerpos tutelados ínfimos los ojos del segundo navegante",
+      "metadata": {
+        "audioAlignmentDistance": 0.5702494575463687,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 115,
+      "type": "text-fragment",
+      "label": "¿qué expresión puede invocar el hilo de las serpientes? enturbia el viento con furia",
+      "text": "¿qué expresión puede invocar el hilo de las serpientes? enturbia el viento con furia",
+      "metadata": {
+        "audioAlignmentDistance": 0.8013581956613648,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 116,
+      "type": "text-fragment",
+      "label": "sobresalen los espinazos del manto ceguera que arremolina la brecha",
+      "text": "sobresalen los espinazos del manto ceguera que arremolina la brecha",
+      "metadata": {
+        "audioAlignmentDistance": 0.5946294857855723,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 117,
+      "type": "text-fragment",
+      "label": "contemplativa raigambre del cerco",
+      "text": "contemplativa raigambre del cerco",
+      "metadata": {
+        "audioAlignmentDistance": 1.758692873472157,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 118,
+      "type": "text-fragment",
+      "label": "fuimos atrapados al punto de irradiar lejanía hebra o madeja",
+      "text": "fuimos atrapados al punto de irradiar lejanía hebra o madeja",
+      "metadata": {
+        "audioAlignmentDistance": 0.4105369686206524,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 119,
+      "type": "text-fragment",
+      "label": "mirar a través de la distancia cuando simula coherencia una mariposa aplasta el marco del molino sobre la montaña",
+      "text": "mirar a través de la distancia cuando simula coherencia una mariposa aplasta el marco del molino sobre la montaña",
+      "metadata": {
+        "audioAlignmentDistance": 0.5195271442826965,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 120,
+      "type": "text-fragment",
+      "label": "reitera el aire su insistencia",
+      "text": "reitera el aire su insistencia",
+      "metadata": {
+        "audioAlignmentDistance": 0.5355165364639569,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 121,
+      "type": "text-fragment",
+      "label": "las sombras orbitan la opacidad",
+      "text": "las sombras orbitan la opacidad",
+      "metadata": {
+        "audioAlignmentDistance": 0.35470978590208585,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 122,
+      "type": "text-fragment",
+      "label": "un enfermo se inclina ante las hojas que duelen la luz mi cabeza retumba el desvarío",
+      "text": "un enfermo se inclina ante las hojas que duelen la luz mi cabeza retumba el desvarío",
+      "metadata": {
+        "audioAlignmentDistance": 0.557417147046931,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 123,
+      "type": "text-fragment",
+      "label": "latidos que acompañan la niebla",
+      "text": "latidos que acompañan la niebla",
+      "metadata": {
+        "audioAlignmentDistance": 0.10846042551421711,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 124,
+      "type": "text-fragment",
+      "label": "hay aves que deciden no volver a pisar tierra el planeta es el sedimento relegado de la brisa quién necesita un roquedal o un banco de arena si los pulmones flotan como aguas muertas",
+      "text": "hay aves que deciden no volver a pisar tierra el planeta es el sedimento relegado de la brisa quién necesita un roquedal o un banco de arena si los pulmones flotan como aguas muertas",
+      "metadata": {
+        "audioAlignmentDistance": 0.7644885425864496,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 125,
+      "type": "text-fragment",
+      "label": "el barro nace como residuo de la respiración se secan las hojas del palto",
+      "text": "el barro nace como residuo de la respiración se secan las hojas del palto",
+      "metadata": {
+        "audioAlignmentDistance": 0.7071709148654859,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 126,
+      "type": "text-fragment",
+      "label": "su tallo se estira",
+      "text": "su tallo se estira",
+      "metadata": {
+        "audioAlignmentDistance": 0.2624707325257316,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 127,
+      "type": "text-fragment",
+      "label": "el agua sorbe reflejos puse otro hueso a florecer",
+      "text": "el agua sorbe reflejos puse otro hueso a florecer",
+      "metadata": {
+        "audioAlignmentDistance": 0.28282608228718625,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 128,
+      "type": "text-fragment",
+      "label": "mientras la «Mimosa púdica» aprende de sus errores",
+      "text": "mientras la «Mimosa púdica» aprende de sus errores",
+      "metadata": {
+        "audioAlignmentDistance": 0.41549435388391637,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 129,
+      "type": "text-fragment",
+      "label": "árboles otra vez",
+      "text": "árboles otra vez",
+      "metadata": {
+        "audioAlignmentDistance": 0.3963162721264466,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 130,
+      "type": "text-fragment",
+      "label": "los hay descendiendo montañas nevadas",
+      "text": "los hay descendiendo montañas nevadas",
+      "metadata": {
+        "audioAlignmentDistance": 2.1376399526503507,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 131,
+      "type": "text-fragment",
+      "label": "intuitiva perspectiva de errados volúmenes velocidad de la marca",
+      "text": "intuitiva perspectiva de errados volúmenes velocidad de la marca",
+      "metadata": {
+        "audioAlignmentDistance": 2.3536342474872196,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 132,
+      "type": "text-fragment",
+      "label": "ungiendo de baba la arcilla mientras cae del río el agua sube por la vega",
+      "text": "ungiendo de baba la arcilla mientras cae del río el agua sube por la vega",
+      "metadata": {
+        "audioAlignmentDistance": 0.7456462205244028,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 133,
+      "type": "text-fragment",
+      "label": "la cercanía no aclara absolutamente nada tesitura de urdimbre congelada",
+      "text": "la cercanía no aclara absolutamente nada tesitura de urdimbre congelada",
+      "metadata": {
+        "audioAlignmentDistance": 0.303138219190187,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 134,
+      "type": "text-fragment",
+      "label": "las nubes afectan cromáticamente un niño está perdiendo su gorra",
+      "text": "las nubes afectan cromáticamente un niño está perdiendo su gorra",
+      "metadata": {
+        "audioAlignmentDistance": 1.2502841160988176,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 135,
+      "type": "text-fragment",
+      "label": "la broza adorna el muro de la taberna",
+      "text": "la broza adorna el muro de la taberna",
+      "metadata": {
+        "audioAlignmentDistance": 0.7675531951732089,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 136,
+      "type": "text-fragment",
+      "label": "el ruido no da tiempo presiona al centro del habla con voz materna su secuela",
+      "text": "el ruido no da tiempo presiona al centro del habla con voz materna su secuela",
+      "metadata": {
+        "audioAlignmentDistance": 0.6528138199133557,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 137,
+      "type": "text-fragment",
+      "label": "puedo visitar esta escena todos los días recordar la luminosidad de la mano que equivocándose te detuvo",
+      "text": "puedo visitar esta escena todos los días recordar la luminosidad de la mano que equivocándose te detuvo",
+      "metadata": {
+        "audioAlignmentDistance": 0.21131716877829726,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 138,
+      "type": "text-fragment",
+      "label": "retraer el impulso a su derrota la voz imaginada no refracta",
+      "text": "retraer el impulso a su derrota la voz imaginada no refracta",
+      "metadata": {
+        "audioAlignmentDistance": 0.4144664967833326,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 139,
+      "type": "text-fragment",
+      "label": "reverberante toma la carne arrojada en penumbra pensar es pensarlo todo",
+      "text": "reverberante toma la carne arrojada en penumbra pensar es pensarlo todo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5269694032121827,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 140,
+      "type": "text-fragment",
+      "label": "las superficies planas siempre están curvadas",
+      "text": "las superficies planas siempre están curvadas",
+      "metadata": {
+        "audioAlignmentDistance": 0.7579735185021779,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 141,
+      "type": "text-fragment",
+      "label": "¿cuántas líneas convergen en la habitación de un enfermo? fiebre es intervalo",
+      "text": "¿cuántas líneas convergen en la habitación de un enfermo? fiebre es intervalo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5256062232481558,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 142,
+      "type": "text-fragment",
+      "label": "piel rasgada en la cabeza que supura el cráneo como pintura que cae",
+      "text": "piel rasgada en la cabeza que supura el cráneo como pintura que cae",
+      "metadata": {
+        "audioAlignmentDistance": 0.4474669564103826,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 143,
+      "type": "text-fragment",
+      "label": "tras el azote de la puerta",
+      "text": "tras el azote de la puerta",
+      "metadata": {
+        "audioAlignmentDistance": 1.2261048739422091,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 144,
+      "type": "text-fragment",
+      "label": "Van Kessel cien años después",
+      "text": "Van Kessel cien años después",
+      "metadata": {
+        "audioAlignmentDistance": 0.2663452541671656,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 145,
+      "type": "text-fragment",
+      "label": "imagina lagartos alados",
+      "text": "imagina lagartos alados",
+      "metadata": {
+        "audioAlignmentDistance": 0.3901857478742342,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 146,
+      "type": "text-fragment",
+      "label": "copas insufladas colman el ojo",
+      "text": "copas insufladas colman el ojo",
+      "metadata": {
+        "audioAlignmentDistance": 0.18912039166099368,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 147,
+      "type": "text-fragment",
+      "label": "bichos saturados de mármol",
+      "text": "bichos saturados de mármol",
+      "metadata": {
+        "audioAlignmentDistance": 0.3794892380197253,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 148,
+      "type": "text-fragment",
+      "label": "ciempieces y caracolas trazan el nombre",
+      "text": "ciempieces y caracolas trazan el nombre",
+      "metadata": {
+        "audioAlignmentDistance": 0.3477610055897876,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 149,
+      "type": "text-fragment",
+      "label": "insectos rellenan las letras",
+      "text": "insectos rellenan las letras",
+      "metadata": {
+        "audioAlignmentDistance": 0.5700890433128728,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 150,
+      "type": "text-fragment",
+      "label": "dos lenguas convergen al margen del gusano",
+      "text": "dos lenguas convergen al margen del gusano",
+      "metadata": {
+        "audioAlignmentDistance": 0.8036617845565984,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 151,
+      "type": "text-fragment",
+      "label": "mantarrayas botan peces por la tripa",
+      "text": "mantarrayas botan peces por la tripa",
+      "metadata": {
+        "audioAlignmentDistance": 0.2920249119305698,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 152,
+      "type": "text-fragment",
+      "label": "un salmón respira fuera del agua",
+      "text": "un salmón respira fuera del agua",
+      "metadata": {
+        "audioAlignmentDistance": 0.45168780230073197,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 153,
+      "type": "text-fragment",
+      "label": "sofocado o pasmado de espanto",
+      "text": "sofocado o pasmado de espanto",
+      "metadata": {
+        "audioAlignmentDistance": 1.2704075082886204,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 154,
+      "type": "text-fragment",
+      "label": "induce un ave el calor",
+      "text": "induce un ave el calor",
+      "metadata": {
+        "audioAlignmentDistance": 0.4960194559823013,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 155,
+      "type": "text-fragment",
+      "label": "exhalan nieve mis pulmones",
+      "text": "exhalan nieve mis pulmones",
+      "metadata": {
+        "audioAlignmentDistance": 0.24833831217755856,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 156,
+      "type": "text-fragment",
+      "label": "pensar en pájaros es sostener medusas tras los cristales",
+      "text": "pensar en pájaros es sostener medusas tras los cristales",
+      "metadata": {
+        "audioAlignmentDistance": 1.1371443677995583,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 157,
+      "type": "text-fragment",
+      "label": "¿qué densidad tiene la mano que mece la tarde?",
+      "text": "¿qué densidad tiene la mano que mece la tarde?",
+      "metadata": {
+        "audioAlignmentDistance": 0.2941624693764551,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 158,
+      "type": "text-fragment",
+      "label": "ámbar el gorjeo de la sangre que se acerca",
+      "text": "ámbar el gorjeo de la sangre que se acerca",
+      "metadata": {
+        "audioAlignmentDistance": 0.3335482948566644,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 159,
+      "type": "text-fragment",
+      "label": "tibia periferia agita el vacío",
+      "text": "tibia periferia agita el vacío",
+      "metadata": {
+        "audioAlignmentDistance": 0.23330551949380435,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 160,
+      "type": "text-fragment",
+      "label": "un suave manto llueve entre nosotros",
+      "text": "un suave manto llueve entre nosotros",
+      "metadata": {
+        "audioAlignmentDistance": 0.6133289375399876,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 161,
+      "type": "text-fragment",
+      "label": "retícula que estampa el hueso",
+      "text": "retícula que estampa el hueso",
+      "metadata": {
+        "audioAlignmentDistance": 0.1838278740429505,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 162,
+      "type": "text-fragment",
+      "label": "la madera se contrae al punto de su nervadura mientras el agua abandona su nicho minúsculas gotas desnudan el fondo",
+      "text": "la madera se contrae al punto de su nervadura mientras el agua abandona su nicho minúsculas gotas desnudan el fondo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5210766821782141,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 163,
+      "type": "text-fragment",
+      "label": "no hay transparencia en la base ajada del retablo no es el reflejo del insecto sino su deterioro",
+      "text": "no hay transparencia en la base ajada del retablo no es el reflejo del insecto sino su deterioro",
+      "metadata": {
+        "audioAlignmentDistance": 0.44597707879109305,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 164,
+      "type": "text-fragment",
+      "label": "los colores se intensifican en la ausencia venas y celdillas",
+      "text": "los colores se intensifican en la ausencia venas y celdillas",
+      "metadata": {
+        "audioAlignmentDistance": 0.5163543776300957,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 165,
+      "type": "text-fragment",
+      "label": "secos los años que dan erróneas fugas a las siluetas las mariposas no resisten su turbia marginalidad ante los artrópodos nocturnos",
+      "text": "secos los años que dan erróneas fugas a las siluetas las mariposas no resisten su turbia marginalidad ante los artrópodos nocturnos",
+      "metadata": {
+        "audioAlignmentDistance": 0.8866215453411811,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 166,
+      "type": "text-fragment",
+      "label": "amasijo común del cántaro",
+      "text": "amasijo común del cántaro",
+      "metadata": {
+        "audioAlignmentDistance": 1.4736712113034494,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 167,
+      "type": "text-fragment",
+      "label": "mis sentidos desperdigados y ansiosos el perro ladra a un monocorde bulbo",
+      "text": "mis sentidos desperdigados y ansiosos el perro ladra a un monocorde bulbo",
+      "metadata": {
+        "audioAlignmentDistance": 0.6921175006581392,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 168,
+      "type": "text-fragment",
+      "label": "no hay miniaturas en el sonido",
+      "text": "no hay miniaturas en el sonido",
+      "metadata": {
+        "audioAlignmentDistance": 0.6544298011560731,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 169,
+      "type": "text-fragment",
+      "label": "tampoco sombras en el paso de los segundos",
+      "text": "tampoco sombras en el paso de los segundos",
+      "metadata": {
+        "audioAlignmentDistance": 1.549030878344555,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 170,
+      "type": "text-fragment",
+      "label": "¿qué grabado puede transcribir la risa del bufón? matices del espectador silente",
+      "text": "¿qué grabado puede transcribir la risa del bufón? matices del espectador silente",
+      "metadata": {
+        "audioAlignmentDistance": 1.6876913322260325,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 171,
+      "type": "text-fragment",
+      "label": "que bota su oído",
+      "text": "que bota su oído",
+      "metadata": {
+        "audioAlignmentDistance": 0.6893372213001177,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 172,
+      "type": "text-fragment",
+      "label": "anonadado en las trampas de la luz",
+      "text": "anonadado en las trampas de la luz",
+      "metadata": {
+        "audioAlignmentDistance": 0.766729446719156,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 173,
+      "type": "text-fragment",
+      "label": "me hundo en los jaramagos piel atada a su llanura",
+      "text": "me hundo en los jaramagos piel atada a su llanura",
+      "metadata": {
+        "audioAlignmentDistance": 1.9928286503799402,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 174,
+      "type": "text-fragment",
+      "label": "es tiempo de pliegues",
+      "text": "es tiempo de pliegues",
+      "metadata": {
+        "audioAlignmentDistance": 0.7959691925498071,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 175,
+      "type": "text-fragment",
+      "label": "tampoco quedan residuos del sueño temblor súbito de la memoria",
+      "text": "tampoco quedan residuos del sueño temblor súbito de la memoria",
+      "metadata": {
+        "audioAlignmentDistance": 1.8126839163953932,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 176,
+      "type": "text-fragment",
+      "label": "debería citar esa plaza donde te vi por última vez describir estos dibujos del piso",
+      "text": "debería citar esa plaza donde te vi por última vez describir estos dibujos del piso",
+      "metadata": {
+        "audioAlignmentDistance": 1.0512154979096886,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 177,
+      "type": "text-fragment",
+      "label": "donde los edificios espesan la luz en cúmulos de celdas",
+      "text": "donde los edificios espesan la luz en cúmulos de celdas",
+      "metadata": {
+        "audioAlignmentDistance": 0.5686814910256407,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 178,
+      "type": "text-fragment",
+      "label": "las branquias reiteran su mecánica mientras las escamas escurren sigilosas ovoides en bosques sumergidos",
+      "text": "las branquias reiteran su mecánica mientras las escamas escurren sigilosas ovoides en bosques sumergidos",
+      "metadata": {
+        "audioAlignmentDistance": 0.4243506357146445,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 179,
+      "type": "text-fragment",
+      "label": "el pez nombra la materia con la que el mismo es producido cuando se agita y eleva",
+      "text": "el pez nombra la materia con la que el mismo es producido cuando se agita y eleva",
+      "metadata": {
+        "audioAlignmentDistance": 0.41173362626071663,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 180,
+      "type": "text-fragment",
+      "label": "las olas pronuncian el vaivén",
+      "text": "las olas pronuncian el vaivén",
+      "metadata": {
+        "audioAlignmentDistance": 0.5095413849411051,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 181,
+      "type": "text-fragment",
+      "label": "en un idioma que nadie quiere escuchar",
+      "text": "en un idioma que nadie quiere escuchar",
+      "metadata": {
+        "audioAlignmentDistance": 0.42286896915959943,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 182,
+      "type": "text-fragment",
+      "label": "la mano duerme su libido",
+      "text": "la mano duerme su libido",
+      "metadata": {
+        "audioAlignmentDistance": 0.4246404440197688,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 183,
+      "type": "text-fragment",
+      "label": "soplo exhausto el frágil resquebrajo escucho una voz femenina",
+      "text": "soplo exhausto el frágil resquebrajo escucho una voz femenina",
+      "metadata": {
+        "audioAlignmentDistance": 0.6303335744395256,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 184,
+      "type": "text-fragment",
+      "label": "podría ser mi abuela",
+      "text": "podría ser mi abuela",
+      "metadata": {
+        "audioAlignmentDistance": 0.1550432640640664,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 185,
+      "type": "text-fragment",
+      "label": "regalando nuestra ropa a los vecinos su pie desbordaba la piel del empeine",
+      "text": "regalando nuestra ropa a los vecinos su pie desbordaba la piel del empeine",
+      "metadata": {
+        "audioAlignmentDistance": 0.44387648370448474,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 186,
+      "type": "text-fragment",
+      "label": "zanjar el plano flores reverberantes",
+      "text": "zanjar el plano flores reverberantes",
+      "metadata": {
+        "audioAlignmentDistance": 0.43843490904977517,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 187,
+      "type": "text-fragment",
+      "label": "fuga del punto hundido al borde del tronco fuego",
+      "text": "fuga del punto hundido al borde del tronco fuego",
+      "metadata": {
+        "audioAlignmentDistance": 1.2394567065994833,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 188,
+      "type": "text-fragment",
+      "label": "multitudes cotidianas rebalsan sin vértices fuera del cardumen",
+      "text": "multitudes cotidianas rebalsan sin vértices fuera del cardumen",
+      "metadata": {
+        "audioAlignmentDistance": 0.47791917210812546,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 189,
+      "type": "text-fragment",
+      "label": "lúmenes capean el centro de la llama para tocar el polvo suspendido del pelaje",
+      "text": "lúmenes capean el centro de la llama para tocar el polvo suspendido del pelaje",
+      "metadata": {
+        "audioAlignmentDistance": 0.8077833757980389,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 190,
+      "type": "text-fragment",
+      "label": "tartamudeo quietud",
+      "text": "tartamudeo quietud",
+      "metadata": {
+        "audioAlignmentDistance": 0.3753546992228899,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 191,
+      "type": "text-fragment",
+      "label": "el gesto coincide con la urgencia del habla su impulso incrusta de letras mis manos tardío pensamiento",
+      "text": "el gesto coincide con la urgencia del habla su impulso incrusta de letras mis manos tardío pensamiento",
+      "metadata": {
+        "audioAlignmentDistance": 0.6144581873032511,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 192,
+      "type": "text-fragment",
+      "label": "el cuadro dice lo que ningún límite puede evitar si bien los pájaros conmueven, se diluyen rasgan la médula rosa de los pulmones",
+      "text": "el cuadro dice lo que ningún límite puede evitar si bien los pájaros conmueven, se diluyen rasgan la médula rosa de los pulmones",
+      "metadata": {
+        "audioAlignmentDistance": 0.7042011561723511,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 193,
+      "type": "text-fragment",
+      "label": "tanteo errático el momento en que una imagen se apropia de la letra el rectángulo sobresale del retablo",
+      "text": "tanteo errático el momento en que una imagen se apropia de la letra el rectángulo sobresale del retablo",
+      "metadata": {
+        "audioAlignmentDistance": 0.974716608569513,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 194,
+      "type": "text-fragment",
+      "label": "de la tela su hebra del tronco su trama",
+      "text": "de la tela su hebra del tronco su trama",
+      "metadata": {
+        "audioAlignmentDistance": 0.44946675595743624,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 195,
+      "type": "text-fragment",
+      "label": "no hay nada en el paisaje que no sea una intención hálito y deseo",
+      "text": "no hay nada en el paisaje que no sea una intención hálito y deseo",
+      "metadata": {
+        "audioAlignmentDistance": 0.49763959588225304,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 196,
+      "type": "text-fragment",
+      "label": "Tiziano se asemeja a Rubens,",
+      "text": "Tiziano se asemeja a Rubens,",
+      "metadata": {
+        "audioAlignmentDistance": 0.35606306602165694,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 197,
+      "type": "text-fragment",
+      "label": "pero Van der Weyden se aleja de Tiziano",
+      "text": "pero Van der Weyden se aleja de Tiziano",
+      "metadata": {
+        "audioAlignmentDistance": 0.288542639496887,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 198,
+      "type": "text-fragment",
+      "label": "cuerdas remecen insuflando",
+      "text": "cuerdas remecen insuflando",
+      "metadata": {
+        "audioAlignmentDistance": 0.6448017340365304,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 199,
+      "type": "text-fragment",
+      "label": "los colores en la piel que ondula",
+      "text": "los colores en la piel que ondula",
+      "metadata": {
+        "audioAlignmentDistance": 0.44430249415496353,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 200,
+      "type": "text-fragment",
+      "label": "resonancias de una idea que no llega",
+      "text": "resonancias de una idea que no llega",
+      "metadata": {
+        "audioAlignmentDistance": 0.854210266004682,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 201,
+      "type": "text-fragment",
+      "label": "modela el susurro la brisa",
+      "text": "modela el susurro la brisa",
+      "metadata": {
+        "audioAlignmentDistance": 0.3437053078040864,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 202,
+      "type": "text-fragment",
+      "label": "el vendaval trae estruendos y remece los sentidos",
+      "text": "el vendaval trae estruendos y remece los sentidos",
+      "metadata": {
+        "audioAlignmentDistance": 1.5824479432800869,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 203,
+      "type": "text-fragment",
+      "label": "una flor atiende su caída",
+      "text": "una flor atiende su caída",
+      "metadata": {
+        "audioAlignmentDistance": 0.9245602872656384,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 204,
+      "type": "text-fragment",
+      "label": "ensucio el aire frotando dos leños encendidos",
+      "text": "ensucio el aire frotando dos leños encendidos",
+      "metadata": {
+        "audioAlignmentDistance": 0.48845584772612766,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 205,
+      "type": "text-fragment",
+      "label": "o dejando caer agua en medio del humo",
+      "text": "o dejando caer agua en medio del humo",
+      "metadata": {
+        "audioAlignmentDistance": 0.9199403872552656,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 206,
+      "type": "text-fragment",
+      "label": "acudo a las mejillas de mi madre",
+      "text": "acudo a las mejillas de mi madre",
+      "metadata": {
+        "audioAlignmentDistance": 0.8111307505678693,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 207,
+      "type": "text-fragment",
+      "label": "como el ciervo a su reflejo desfigurado",
+      "text": "como el ciervo a su reflejo desfigurado",
+      "metadata": {
+        "audioAlignmentDistance": 0.35150149615685083,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 208,
+      "type": "text-fragment",
+      "label": "intento una caricia que llega torpe a su destino",
+      "text": "intento una caricia que llega torpe a su destino",
+      "metadata": {
+        "audioAlignmentDistance": 0.535422795719996,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 209,
+      "type": "text-fragment",
+      "label": "cuando los diques estriados se llenan de musgo",
+      "text": "cuando los diques estriados se llenan de musgo",
+      "metadata": {
+        "audioAlignmentDistance": 1.3809498377449432,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 210,
+      "type": "text-fragment",
+      "label": "una roca se mimetiza y desaparece",
+      "text": "una roca se mimetiza y desaparece",
+      "metadata": {
+        "audioAlignmentDistance": 0.285609330498628,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 211,
+      "type": "text-fragment",
+      "label": "el pelaje fino del perro se mueve entre la opacidad y el oro un niño grita su nombre mientras otros se aíslan encaramados en árboles inimitables",
+      "text": "el pelaje fino del perro se mueve entre la opacidad y el oro un niño grita su nombre mientras otros se aíslan encaramados en árboles inimitables",
+      "metadata": {
+        "audioAlignmentDistance": 0.5775852646435443,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 212,
+      "type": "text-fragment",
+      "label": "obsequian polvorientas tinturas el pintor sostiene su otra mano",
+      "text": "obsequian polvorientas tinturas el pintor sostiene su otra mano",
+      "metadata": {
+        "audioAlignmentDistance": 0.4586859193174322,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 213,
+      "type": "text-fragment",
+      "label": "mientras el telescopio distorsiona imágenes a su favor",
+      "text": "mientras el telescopio distorsiona imágenes a su favor",
+      "metadata": {
+        "audioAlignmentDistance": 0.7695301602357749,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 214,
+      "type": "text-fragment",
+      "label": "los hijos de Pieter Bruegel el viejo no llegan a conocerlo son criados por sus abuelos",
+      "text": "los hijos de Pieter Bruegel el viejo no llegan a conocerlo son criados por sus abuelos",
+      "metadata": {
+        "audioAlignmentDistance": 0.9636728738353281,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 215,
+      "type": "text-fragment",
+      "label": "el taller de Peter el joven llega a realizar hasta 174 copias de los cuadros de su padre pintores italianos son enviados a Flandes Jan el viejo se acerca a Rubens",
+      "text": "el taller de Peter el joven llega a realizar hasta 174 copias de los cuadros de su padre pintores italianos son enviados a Flandes Jan el viejo se acerca a Rubens",
+      "metadata": {
+        "audioAlignmentDistance": 0.8652048580372251,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 216,
+      "type": "text-fragment",
+      "label": "el viejo Bruegel saca la hache de su apellido para facilitar su italianización Jan Van Eyck es traducido como Juan de Brujas",
+      "text": "el viejo Bruegel saca la hache de su apellido para facilitar su italianización Jan Van Eyck es traducido como Juan de Brujas",
+      "metadata": {
+        "audioAlignmentDistance": 0.7370329695233628,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 217,
+      "type": "text-fragment",
+      "label": "algunos cuadros del quatroccento parecen menos interesantes",
+      "text": "algunos cuadros del quatroccento parecen menos interesantes",
+      "metadata": {
+        "audioAlignmentDistance": 0.32473400533782154,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 218,
+      "type": "text-fragment",
+      "label": "melodías que abandonan su origen para torcer al comienzo de mi boca esta fragilidad se adhiere como una flor del aire al pilar desgastado",
+      "text": "melodías que abandonan su origen para torcer al comienzo de mi boca esta fragilidad se adhiere como una flor del aire al pilar desgastado",
+      "metadata": {
+        "audioAlignmentDistance": 0.45974568865562365,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 219,
+      "type": "text-fragment",
+      "label": "la impresión del abandono",
+      "text": "la impresión del abandono",
+      "metadata": {
+        "audioAlignmentDistance": 2.4133271065033455,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 220,
+      "type": "text-fragment",
+      "label": "la costumbre de sobrellevarlo",
+      "text": "la costumbre de sobrellevarlo",
+      "metadata": {
+        "audioAlignmentDistance": 1.6265478476319264,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 221,
+      "type": "text-fragment",
+      "label": "dejé de escuchar silbidos en el tráfago de los bosques pintar para sobrevivir, dibujar lagartos alados",
+      "text": "dejé de escuchar silbidos en el tráfago de los bosques pintar para sobrevivir, dibujar lagartos alados",
+      "metadata": {
+        "audioAlignmentDistance": 1.2424684120544798,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 222,
+      "type": "text-fragment",
+      "label": "¿cómo enseñar la articulación entre el mentón y el comienzo del oído?",
+      "text": "¿cómo enseñar la articulación entre el mentón y el comienzo del oído?",
+      "metadata": {
+        "audioAlignmentDistance": 0.6383477096564737,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 223,
+      "type": "text-fragment",
+      "label": "¿cuántas formas hay de sostener un pincel?",
+      "text": "¿cuántas formas hay de sostener un pincel?",
+      "metadata": {
+        "audioAlignmentDistance": 0.7878055557085999,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 224,
+      "type": "text-fragment",
+      "label": "¿cómo pinta la crin de un animal enorme?",
+      "text": "¿cómo pinta la crin de un animal enorme?",
+      "metadata": {
+        "audioAlignmentDistance": 0.3969788533517761,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 225,
+      "type": "text-fragment",
+      "label": "¿cuánto tiempo puede un niño fijar la mirada sin mascar el borde de su blusa?",
+      "text": "¿cuánto tiempo puede un niño fijar la mirada sin mascar el borde de su blusa?",
+      "metadata": {
+        "audioAlignmentDistance": 0.31022823590834997,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 226,
+      "type": "text-fragment",
+      "label": "¿qué hacer con los insectos cuando repiten el ascenso?",
+      "text": "¿qué hacer con los insectos cuando repiten el ascenso?",
+      "metadata": {
+        "audioAlignmentDistance": 1.2431857785648996,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 227,
+      "type": "text-fragment",
+      "label": "¿cuántas veces al año florece un nogal para dar con su forma? hay tantas abuelas como madres, pero en nada coinciden",
+      "text": "¿cuántas veces al año florece un nogal para dar con su forma? hay tantas abuelas como madres, pero en nada coinciden",
+      "metadata": {
+        "audioAlignmentDistance": 0.5165273302874538,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 228,
+      "type": "text-fragment",
+      "label": "las ilustraciones no tienen color, pero un árbol transparente no sabe de deseo cerdas que resbalan por la tela",
+      "text": "las ilustraciones no tienen color, pero un árbol transparente no sabe de deseo cerdas que resbalan por la tela",
+      "metadata": {
+        "audioAlignmentDistance": 0.24736703517364944,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 229,
+      "type": "text-fragment",
+      "label": "ningún castillo flota en el agua, pero el reflejo los hace volar",
+      "text": "ningún castillo flota en el agua, pero el reflejo los hace volar",
+      "metadata": {
+        "audioAlignmentDistance": 1.1739474049187362,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 230,
+      "type": "text-fragment",
+      "label": "¿cuánta pintura necesita un sólo cabello?",
+      "text": "¿cuánta pintura necesita un sólo cabello?",
+      "metadata": {
+        "audioAlignmentDistance": 0.4759897432748637,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 231,
+      "type": "text-fragment",
+      "label": "el óleo es comestible pero no se puede tragar dos hermanos disputan atención",
+      "text": "el óleo es comestible pero no se puede tragar dos hermanos disputan atención",
+      "metadata": {
+        "audioAlignmentDistance": 0.39777404460533106,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 232,
+      "type": "text-fragment",
+      "label": "mientras el perro posa para ser retratado con un mendrugo en el hocico",
+      "text": "mientras el perro posa para ser retratado con un mendrugo en el hocico",
+      "metadata": {
+        "audioAlignmentDistance": 0.4638712592059579,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 233,
+      "type": "text-fragment",
+      "label": "hilo al vértice de la mano",
+      "text": "hilo al vértice de la mano",
+      "metadata": {
+        "audioAlignmentDistance": 0.7306106266717105,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 234,
+      "type": "text-fragment",
+      "label": "tocar algas con la piel del cuello texturas compartidas continuidad del aire",
+      "text": "tocar algas con la piel del cuello texturas compartidas continuidad del aire",
+      "metadata": {
+        "audioAlignmentDistance": 0.8848142082826891,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 235,
+      "type": "text-fragment",
+      "label": "adhiere al músculo",
+      "text": "adhiere al músculo",
+      "metadata": {
+        "audioAlignmentDistance": 0.4388648565124733,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 236,
+      "type": "text-fragment",
+      "label": "reposa en la ladera del árbol",
+      "text": "reposa en la ladera del árbol",
+      "metadata": {
+        "audioAlignmentDistance": 1.4464914148051005,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 237,
+      "type": "text-fragment",
+      "label": "si el cabello que en círculos capea las olas brota del movimiento accidental del viento es porque la música es anterior al gesto",
+      "text": "si el cabello que en círculos capea las olas brota del movimiento accidental del viento es porque la música es anterior al gesto",
+      "metadata": {
+        "audioAlignmentDistance": 0.5646054944313136,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 238,
+      "type": "text-fragment",
+      "label": "caer es el peso de los días que asfixian",
+      "text": "caer es el peso de los días que asfixian",
+      "metadata": {
+        "audioAlignmentDistance": 0.9272910337767661,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 239,
+      "type": "text-fragment",
+      "label": "el pie del danzante a milímetros del zapato dejo entonces que el acto me disloque",
+      "text": "el pie del danzante a milímetros del zapato dejo entonces que el acto me disloque",
+      "metadata": {
+        "audioAlignmentDistance": 0.9940416602661615,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 240,
+      "type": "text-fragment",
+      "label": "¿se romperá esta intriga que nos separa de la nieve? el mar con botones de cera",
+      "text": "¿se romperá esta intriga que nos separa de la nieve? el mar con botones de cera",
+      "metadata": {
+        "audioAlignmentDistance": 0.711645403539071,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 241,
+      "type": "text-fragment",
+      "label": "traga el cuerpo sin alas",
+      "text": "traga el cuerpo sin alas",
+      "metadata": {
+        "audioAlignmentDistance": 0.6213197232141626,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 242,
+      "type": "text-fragment",
+      "label": "partir ramas secas o sostener el arado el molino mueve la roca",
+      "text": "partir ramas secas o sostener el arado el molino mueve la roca",
+      "metadata": {
+        "audioAlignmentDistance": 0.5916532300931795,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 243,
+      "type": "text-fragment",
+      "label": "apisona suspendido",
+      "text": "apisona suspendido",
+      "metadata": {
+        "audioAlignmentDistance": 0.4283872249419469,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 244,
+      "type": "text-fragment",
+      "label": "las heridas vuelven los ojos sobre sí",
+      "text": "las heridas vuelven los ojos sobre sí",
+      "metadata": {
+        "audioAlignmentDistance": 0.6659331946430286,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 245,
+      "type": "text-fragment",
+      "label": "¿qué empuja el vacío",
+      "text": "¿qué empuja el vacío",
+      "metadata": {
+        "audioAlignmentDistance": 0.3491610421816177,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 246,
+      "type": "text-fragment",
+      "label": "cuando tendido sobre los codos",
+      "text": "cuando tendido sobre los codos",
+      "metadata": {
+        "audioAlignmentDistance": 1.392440903582355,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 247,
+      "type": "text-fragment",
+      "label": "pienso en las heridas que crecen por desgaste? mi madre pone a su madre en el sofá imaginando las rectas de un dibujo infantil",
+      "text": "pienso en las heridas que crecen por desgaste? mi madre pone a su madre en el sofá imaginando las rectas de un dibujo infantil",
+      "metadata": {
+        "audioAlignmentDistance": 0.8488966898459882,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 248,
+      "type": "text-fragment",
+      "label": "la abuela sonríe cuando recuerda",
+      "text": "la abuela sonríe cuando recuerda",
+      "metadata": {
+        "audioAlignmentDistance": 0.06521419529737678,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 249,
+      "type": "text-fragment",
+      "label": "que los cuadros que adornan las murallas son imitaciones que ella misma pintó",
+      "text": "que los cuadros que adornan las murallas son imitaciones que ella misma pintó",
+      "metadata": {
+        "audioAlignmentDistance": 0.6555928303359129,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 250,
+      "type": "text-fragment",
+      "label": "si juntas aparecieran en un cuadro",
+      "text": "si juntas aparecieran en un cuadro",
+      "metadata": {
+        "audioAlignmentDistance": 0.4625268821859234,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 251,
+      "type": "text-fragment",
+      "label": "formarían un paisaje de faisanes teñidos de sangre de uno por cinco centímetros",
+      "text": "formarían un paisaje de faisanes teñidos de sangre de uno por cinco centímetros",
+      "metadata": {
+        "audioAlignmentDistance": 0.2716043204405378,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 252,
+      "type": "text-fragment",
+      "label": "los movimientos atrapados en el gesto de girar a un enfermo mientras suena un lamento exagerado",
+      "text": "los movimientos atrapados en el gesto de girar a un enfermo mientras suena un lamento exagerado",
+      "metadata": {
+        "audioAlignmentDistance": 1.02971539180963,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 253,
+      "type": "text-fragment",
+      "label": "que recuerda a un animal tragando carroña",
+      "text": "que recuerda a un animal tragando carroña",
+      "metadata": {
+        "audioAlignmentDistance": 0.3643900296434458,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 254,
+      "type": "text-fragment",
+      "label": "el sol divide los acentos",
+      "text": "el sol divide los acentos",
+      "metadata": {
+        "audioAlignmentDistance": 1.5312387610526181,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 255,
+      "type": "text-fragment",
+      "label": "capas de tierra con sucesivos tesoros",
+      "text": "capas de tierra con sucesivos tesoros",
+      "metadata": {
+        "audioAlignmentDistance": 0.5041194433964458,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 256,
+      "type": "text-fragment",
+      "label": "sobre mi espalda juega una niña que recupera el aliento huesos enormes crecen desde el cráneo",
+      "text": "sobre mi espalda juega una niña que recupera el aliento huesos enormes crecen desde el cráneo",
+      "metadata": {
+        "audioAlignmentDistance": 0.5072453579083533,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 257,
+      "type": "text-fragment",
+      "label": "cavamos hacia el núcleo",
+      "text": "cavamos hacia el núcleo",
+      "metadata": {
+        "audioAlignmentDistance": 0.518241494978165,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 258,
+      "type": "text-fragment",
+      "label": "se construye sobre muros y palacios quemados",
+      "text": "se construye sobre muros y palacios quemados",
+      "metadata": {
+        "audioAlignmentDistance": 0.6499231464322036,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 259,
+      "type": "text-fragment",
+      "label": "fuego en la base de los cimientos que volverán a caer",
+      "text": "fuego en la base de los cimientos que volverán a caer",
+      "metadata": {
+        "audioAlignmentDistance": 0.7088296531518296,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 260,
+      "type": "text-fragment",
+      "label": "abejas sobre el cuero de la iguana se estancan entre los ciruelos",
+      "text": "abejas sobre el cuero de la iguana se estancan entre los ciruelos",
+      "metadata": {
+        "audioAlignmentDistance": 0.6096030740788864,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 261,
+      "type": "text-fragment",
+      "label": "la miel se adhiere a la corteza zumbido deforme",
+      "text": "la miel se adhiere a la corteza zumbido deforme",
+      "metadata": {
+        "audioAlignmentDistance": 0.5597022105273195,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 262,
+      "type": "text-fragment",
+      "label": "entre espinos y rosaledas un oído inquieto",
+      "text": "entre espinos y rosaledas un oído inquieto",
+      "metadata": {
+        "audioAlignmentDistance": 0.5108249910746165,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 263,
+      "type": "text-fragment",
+      "label": "su nervadura",
+      "text": "su nervadura",
+      "metadata": {
+        "audioAlignmentDistance": 0.7810035025905953,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 264,
+      "type": "text-fragment",
+      "label": "subir hasta dar con las aspas del molino",
+      "text": "subir hasta dar con las aspas del molino",
+      "metadata": {
+        "audioAlignmentDistance": 0.586343770558727,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 265,
+      "type": "text-fragment",
+      "label": "esta rara ventisca ignora que el grano revienta en polvo",
+      "text": "esta rara ventisca ignora que el grano revienta en polvo",
+      "metadata": {
+        "audioAlignmentDistance": 0.3075785051603633,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 266,
+      "type": "text-fragment",
+      "label": "los tejados cargan la sombra de sus habitantes",
+      "text": "los tejados cargan la sombra de sus habitantes",
+      "metadata": {
+        "audioAlignmentDistance": 0.6132075131863038,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 267,
+      "type": "text-fragment",
+      "label": "nueve niños caben en una cama",
+      "text": "nueve niños caben en una cama",
+      "metadata": {
+        "audioAlignmentDistance": 0.49322623806206034,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 268,
+      "type": "text-fragment",
+      "label": "uno de ellos juega a cabalgar con la manta de pelo que ahora se encabrita",
+      "text": "uno de ellos juega a cabalgar con la manta de pelo que ahora se encabrita",
+      "metadata": {
+        "audioAlignmentDistance": 0.6190755419731481,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 269,
+      "type": "text-fragment",
+      "label": "lo cercano transcurre en dirección opuesta a lo trascendente",
+      "text": "lo cercano transcurre en dirección opuesta a lo trascendente",
+      "metadata": {
+        "audioAlignmentDistance": 0.10729054520430324,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 270,
+      "type": "text-fragment",
+      "label": "retazos de madera construyen un mirador",
+      "text": "retazos de madera construyen un mirador",
+      "metadata": {
+        "audioAlignmentDistance": 0.5059451613996283,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 271,
+      "type": "text-fragment",
+      "label": "lerda noche escupe el pez muerto",
+      "text": "lerda noche escupe el pez muerto",
+      "metadata": {
+        "audioAlignmentDistance": 0.4655797354951163,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 272,
+      "type": "text-fragment",
+      "label": "fuera del agua los estertores duran menos de una hora",
+      "text": "fuera del agua los estertores duran menos de una hora",
+      "metadata": {
+        "audioAlignmentDistance": 0.4974115540996203,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 273,
+      "type": "text-fragment",
+      "label": "se contraen sibilantes las branquias",
+      "text": "se contraen sibilantes las branquias",
+      "metadata": {
+        "audioAlignmentDistance": 0.4175616812473971,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 274,
+      "type": "text-fragment",
+      "label": "un cuervo tentado por la sangre",
+      "text": "un cuervo tentado por la sangre",
+      "metadata": {
+        "audioAlignmentDistance": 0.23036408170193576,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 275,
+      "type": "text-fragment",
+      "label": "picando las mejillas desnudas y carnosas",
+      "text": "picando las mejillas desnudas y carnosas",
+      "metadata": {
+        "audioAlignmentDistance": 0.5539134279992425,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 276,
+      "type": "text-fragment",
+      "label": "caudal marrón de longevos meandros",
+      "text": "caudal marrón de longevos meandros",
+      "metadata": {
+        "audioAlignmentDistance": 0.7270948719021816,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 277,
+      "type": "text-fragment",
+      "label": "el pez como el oído prescinde de párpados",
+      "text": "el pez como el oído prescinde de párpados",
+      "metadata": {
+        "audioAlignmentDistance": 0.5039507677552463,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 278,
+      "type": "text-fragment",
+      "label": "los párpados son las piedras pulidas por el río",
+      "text": "los párpados son las piedras pulidas por el río",
+      "metadata": {
+        "audioAlignmentDistance": 0.9115314642015893,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 279,
+      "type": "text-fragment",
+      "label": "filtran los picotazos",
+      "text": "filtran los picotazos",
+      "metadata": {
+        "audioAlignmentDistance": 3.1110637321951207,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 280,
+      "type": "text-fragment",
+      "label": "pero atrapan los granos de polen",
+      "text": "pero atrapan los granos de polen",
+      "metadata": {
+        "audioAlignmentDistance": 1.898708712138896,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": 281,
+      "type": "text-fragment",
+      "label": "que intentan sembrar su continuidad",
+      "text": "que intentan sembrar su continuidad",
+      "metadata": {
+        "audioAlignmentDistance": 0.36687035417497177,
+        "source": "Grisalla"
+      }
+    },
+    {
+      "id": "document-grisalla",
+      "type": "document",
+      "label": "Grisalla — documento principal",
+      "text": "Documento principal del mundo Grisalla. Los versos y las realizaciones sonoras son nodos independientes.",
+      "metadata": {
+        "author": "Daniel Román Rodríguez",
+        "role": "source-document"
+      }
+    },
+    {
+      "id": "audio-000",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 000",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 000.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_000.mp3",
+          "start": 0.0,
+          "end": 4.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 0
+      }
+    },
+    {
+      "id": "audio-001",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 001",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 001.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_001.mp3",
+          "start": 3.0,
+          "end": 7.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 1
+      }
+    },
+    {
+      "id": "audio-002",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 002",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 002.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_002.mp3",
+          "start": 9.0,
+          "end": 13.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 2
+      }
+    },
+    {
+      "id": "audio-003",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 003",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 003.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_003.mp3",
+          "start": 12.0,
+          "end": 16.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 3
+      }
+    },
+    {
+      "id": "audio-004",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 004",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 004.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_004.mp3",
+          "start": 18.0,
+          "end": 22.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 4
+      }
+    },
+    {
+      "id": "audio-005",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 005",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 005.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_005.mp3",
+          "start": 21.0,
+          "end": 25.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 5
+      }
+    },
+    {
+      "id": "audio-006",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 006",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 006.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_006.mp3",
+          "start": 27.0,
+          "end": 31.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 6
+      }
+    },
+    {
+      "id": "audio-007",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 007",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 007.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_007.mp3",
+          "start": 30.0,
+          "end": 34.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 7
+      }
+    },
+    {
+      "id": "audio-008",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 008",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 008.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_008.mp3",
+          "start": 36.0,
+          "end": 40.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 8
+      }
+    },
+    {
+      "id": "audio-009",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 009",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 009.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_009.mp3",
+          "start": 39.0,
+          "end": 43.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 9
+      }
+    },
+    {
+      "id": "audio-010",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 010",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 010.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_010.mp3",
+          "start": 45.0,
+          "end": 49.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 10
+      }
+    },
+    {
+      "id": "audio-011",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 011",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 011.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_011.mp3",
+          "start": 51.0,
+          "end": 55.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 11
+      }
+    },
+    {
+      "id": "audio-012",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 012",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 012.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_012.mp3",
+          "start": 54.0,
+          "end": 58.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 12
+      }
+    },
+    {
+      "id": "audio-013",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 013",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 013.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_013.mp3",
+          "start": 60.0,
+          "end": 64.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 13
+      }
+    },
+    {
+      "id": "audio-014",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 014",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 014.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_014.mp3",
+          "start": 63.0,
+          "end": 67.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 14
+      }
+    },
+    {
+      "id": "audio-015",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 015",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 015.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_015.mp3",
+          "start": 69.0,
+          "end": 73.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 15
+      }
+    },
+    {
+      "id": "audio-016",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 016",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 016.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_016.mp3",
+          "start": 72.0,
+          "end": 76.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 16
+      }
+    },
+    {
+      "id": "audio-017",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 017",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 017.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_017.mp3",
+          "start": 78.0,
+          "end": 82.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 17
+      }
+    },
+    {
+      "id": "audio-018",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 018",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 018.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_018.mp3",
+          "start": 81.0,
+          "end": 85.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 18
+      }
+    },
+    {
+      "id": "audio-019",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 019",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 019.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_019.mp3",
+          "start": 87.0,
+          "end": 91.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 19
+      }
+    },
+    {
+      "id": "audio-020",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 020",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 020.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_020.mp3",
+          "start": 93.0,
+          "end": 97.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 20
+      }
+    },
+    {
+      "id": "audio-021",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 021",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 021.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_021.mp3",
+          "start": 96.0,
+          "end": 100.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 21
+      }
+    },
+    {
+      "id": "audio-022",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 022",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 022.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_022.mp3",
+          "start": 102.0,
+          "end": 106.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 22
+      }
+    },
+    {
+      "id": "audio-023",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 023",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 023.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_023.mp3",
+          "start": 105.0,
+          "end": 109.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 23
+      }
+    },
+    {
+      "id": "audio-024",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 024",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 024.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_024.mp3",
+          "start": 111.0,
+          "end": 115.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 24
+      }
+    },
+    {
+      "id": "audio-025",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 025",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 025.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_025.mp3",
+          "start": 114.0,
+          "end": 118.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 25
+      }
+    },
+    {
+      "id": "audio-026",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 026",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 026.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_026.mp3",
+          "start": 120.0,
+          "end": 124.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 26
+      }
+    },
+    {
+      "id": "audio-027",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 027",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 027.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_027.mp3",
+          "start": 123.0,
+          "end": 127.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 27
+      }
+    },
+    {
+      "id": "audio-028",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 028",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 028.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_028.mp3",
+          "start": 129.0,
+          "end": 133.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 28
+      }
+    },
+    {
+      "id": "audio-029",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 029",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 029.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_029.mp3",
+          "start": 135.0,
+          "end": 139.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 29
+      }
+    },
+    {
+      "id": "audio-030",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 030",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 030.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_030.mp3",
+          "start": 138.0,
+          "end": 142.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 30
+      }
+    },
+    {
+      "id": "audio-031",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 031",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 031.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_031.mp3",
+          "start": 144.0,
+          "end": 148.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 31
+      }
+    },
+    {
+      "id": "audio-032",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 032",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 032.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_032.mp3",
+          "start": 147.0,
+          "end": 151.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 32
+      }
+    },
+    {
+      "id": "audio-033",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 033",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 033.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_033.mp3",
+          "start": 153.0,
+          "end": 157.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 33
+      }
+    },
+    {
+      "id": "audio-034",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 034",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 034.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_034.mp3",
+          "start": 156.0,
+          "end": 160.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 34
+      }
+    },
+    {
+      "id": "audio-035",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 035",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 035.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_035.mp3",
+          "start": 162.0,
+          "end": 166.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 35
+      }
+    },
+    {
+      "id": "audio-036",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 036",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 036.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_036.mp3",
+          "start": 165.0,
+          "end": 169.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 36
+      }
+    },
+    {
+      "id": "audio-037",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 037",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 037.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_037.mp3",
+          "start": 171.0,
+          "end": 175.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 37
+      }
+    },
+    {
+      "id": "audio-038",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 038",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 038.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_038.mp3",
+          "start": 177.0,
+          "end": 181.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 38
+      }
+    },
+    {
+      "id": "audio-039",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 039",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 039.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_039.mp3",
+          "start": 180.0,
+          "end": 184.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 39
+      }
+    },
+    {
+      "id": "audio-040",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 040",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 040.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_040.mp3",
+          "start": 186.0,
+          "end": 190.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 40
+      }
+    },
+    {
+      "id": "audio-041",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 041",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 041.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_041.mp3",
+          "start": 189.0,
+          "end": 193.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 41
+      }
+    },
+    {
+      "id": "audio-042",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 042",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 042.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_042.mp3",
+          "start": 195.0,
+          "end": 199.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 42
+      }
+    },
+    {
+      "id": "audio-043",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 043",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 043.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_043.mp3",
+          "start": 198.0,
+          "end": 202.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 43
+      }
+    },
+    {
+      "id": "audio-044",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 044",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 044.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_044.mp3",
+          "start": 204.0,
+          "end": 208.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 44
+      }
+    },
+    {
+      "id": "audio-045",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 045",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 045.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_045.mp3",
+          "start": 207.0,
+          "end": 211.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 45
+      }
+    },
+    {
+      "id": "audio-046",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 046",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 046.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_046.mp3",
+          "start": 213.0,
+          "end": 217.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 46
+      }
+    },
+    {
+      "id": "audio-047",
+      "type": "audio-original",
+      "label": "Fragmento sonoro 047",
+      "text": "Realización sonora original del prototipo Grisalla, segmento 047.",
+      "media": {
+        "audio": {
+          "file": "audio/original/segment_047.mp3",
+          "start": 219.0,
+          "end": 223.0,
+          "provenance": {
+            "category": "original-project-audio",
+            "source": "Prototipo Grisalla",
+            "historicalOriginal": false,
+            "note": "Material sonoro del proyecto; no se presenta como documento histórico."
+          }
+        }
+      },
+      "metadata": {
+        "legacyAudioId": 47
+      }
+    }
+  ]
+}

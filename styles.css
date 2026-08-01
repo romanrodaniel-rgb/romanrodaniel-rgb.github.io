@@ -320,3 +320,9 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
   .mpi-overlay h3 { font-size: clamp(4rem, 24vw, 7rem); }
   .mpi-status-grid article { min-height: auto; }
 }
+
+
+/* Live MPI worlds */
+.mpi-world-buttons { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:.65rem; }
+.mpi-world-buttons .prototype-button { white-space:nowrap; }
+@media (max-width: 760px) { .mpi-world-buttons { justify-content:flex-start; } }
