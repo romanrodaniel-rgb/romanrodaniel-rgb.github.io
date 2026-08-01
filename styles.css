@@ -369,3 +369,83 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
   .mpi-overlay h3{font-size:clamp(3.8rem,22vw,6.3rem)}
   .mpi-overlay-subtitle{font-size:.64rem;letter-spacing:.13em}
 }
+
+/* Mobile navigation repair · iOS Safari */
+@media (max-width: 860px) {
+  .topbar {
+    background: #0a0a0a;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .wordmark,
+  .header-actions {
+    position: relative;
+    z-index: 3;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding:
+      calc(96px + env(safe-area-inset-top))
+      clamp(1.25rem, 6vw, 2rem)
+      calc(2rem + env(safe-area-inset-bottom));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    background: #0a0a0a;
+    transform: translate3d(100%, 0, 0);
+    transition: transform .32s cubic-bezier(.2,.7,.2,1);
+    isolation: isolate;
+  }
+
+  .mobile-nav.open {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .mobile-nav a {
+    display: flex;
+    align-items: center;
+    min-height: clamp(68px, 11.5vh, 92px);
+    padding: .35rem 0;
+    border-bottom: 1px solid var(--line-dark);
+    font-family: var(--serif);
+    font-size: clamp(2rem, 10vw, 3.25rem);
+    font-weight: 400;
+    line-height: .95;
+    letter-spacing: -.035em;
+    white-space: nowrap;
+  }
+
+  .mobile-nav a:first-child {
+    border-top: 1px solid var(--line-dark);
+  }
+
+  body.menu-open main {
+    visibility: hidden;
+  }
+
+  body.menu-open .grain {
+    opacity: .025;
+  }
+}
+
+@media (max-width: 390px) {
+  .mobile-nav {
+    padding-top: calc(88px + env(safe-area-inset-top));
+  }
+
+  .mobile-nav a {
+    min-height: 64px;
+    font-size: clamp(1.85rem, 9.5vw, 2.8rem);
+  }
+}
