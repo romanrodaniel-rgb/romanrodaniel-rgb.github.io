@@ -102,9 +102,6 @@ export class Renderer {
     this.searchIds = new Set();
     this.groupIds = new Set();
     this.pointer = { x: 0, y: 0, inside: false };
-    this.coarsePointer = Boolean(window.matchMedia?.('(pointer: coarse)').matches || window.innerWidth <= 700);
-    this.activePointers = new Map();
-    this.pinch = null;
     this.drag = null;
     this.dwellEnabled = false;
     this.dwellDelay = 450;
@@ -358,11 +355,6 @@ export class Renderer {
 
   pixelRatio() {
     const dpr = Number(window.devicePixelRatio || 1);
-    if (this.coarsePointer) {
-      if (this.quality === 'high') return Math.min(1.75, Math.max(1.25, dpr));
-      if (this.quality === 'balanced') return Math.min(1.35, Math.max(1, dpr));
-      return 1;
-    }
     if (this.quality === 'fluid') return 1;
     if (this.quality === 'high') return Math.min(3, Math.max(2, dpr * 1.28));
     return Math.min(2.25, Math.max(1.25, dpr));
@@ -597,19 +589,13 @@ export class Renderer {
     this.canvas.className = 'embedding-canvas';
     this.canvas.setAttribute('aria-label', 'Nube de embeddings interactiva');
     this.element.appendChild(this.canvas);
-    this.ctx = this.canvas.getContext('2d', { alpha: false, desynchronized: true })
-      || this.canvas.getContext('2d', { alpha: false });
-    if (!this.ctx) throw new Error('El navegador no ha podido iniciar el lienzo gráfico de MPI.');
+    this.ctx = this.canvas.getContext('2d', { alpha: false, desynchronized: true });
     this.displayPositions = this.layoutPositions(this.representationMode);
     this.startProgressiveReveal();
     this.resize();
     this.bindEvents();
-    if (typeof window.ResizeObserver === 'function') {
-      this.resizeObserver = new ResizeObserver(() => this.resize());
-      this.resizeObserver.observe(this.element);
-    } else {
-      window.addEventListener('resize', this.bound.resize, { passive: true });
-    }
+    this.resizeObserver = new ResizeObserver(() => this.resize());
+    this.resizeObserver.observe(this.element);
     this.updateResolvedScale(true);
     this.emitProfile();
     this.lastFrame = performance.now();
@@ -637,34 +623,17 @@ export class Renderer {
     this.bound.pointerMove = (event) => this.pointerMove(event);
     this.bound.pointerDown = (event) => this.pointerDown(event);
     this.bound.pointerUp = (event) => this.pointerUp(event);
-    this.bound.pointerCancel = (event) => this.pointerCancel(event);
     this.bound.pointerLeave = () => this.pointerLeave();
     this.bound.wheel = (event) => this.wheel(event);
-    this.bound.resize = () => this.resize();
     this.canvas.addEventListener('pointermove', this.bound.pointerMove);
     this.canvas.addEventListener('pointerdown', this.bound.pointerDown);
     window.addEventListener('pointerup', this.bound.pointerUp);
-    window.addEventListener('pointercancel', this.bound.pointerCancel);
     this.canvas.addEventListener('pointerleave', this.bound.pointerLeave);
     this.canvas.addEventListener('wheel', this.bound.wheel, { passive: false });
   }
 
-  pointerDistance() {
-    const points = [...this.activePointers.values()];
-    if (points.length < 2) return 0;
-    return Math.hypot(points[0].x - points[1].x, points[0].y - points[1].y);
-  }
-
   pointerDown(event) {
-    event.preventDefault();
-    try { this.canvas.setPointerCapture?.(event.pointerId); } catch { /* Safari may reject capture during a gesture. */ }
-    this.activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    if (this.activePointers.size >= 2) {
-      this.pinch = { distance: Math.max(1, this.pointerDistance()), cameraDistance: this.camera.targetDistance };
-      this.drag = null;
-      this.cancelDwell();
-      return;
-    }
+    this.canvas.setPointerCapture?.(event.pointerId);
     this.drag = { x: event.clientX, y: event.clientY, lastX: event.clientX, lastY: event.clientY, moved: false, pointerId: event.pointerId };
   }
 
@@ -673,45 +642,26 @@ export class Renderer {
     this.pointer.x = event.clientX - rect.left;
     this.pointer.y = event.clientY - rect.top;
     this.pointer.inside = true;
-    if (this.activePointers.has(event.pointerId)) {
-      this.activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    }
-    if (this.activePointers.size >= 2) {
-      event.preventDefault();
-      const distance = Math.max(1, this.pointerDistance());
-      if (!this.pinch) this.pinch = { distance, cameraDistance: this.camera.targetDistance };
-      const factor = this.pinch.distance / distance;
-      this.camera.targetDistance = clamp(this.pinch.cameraDistance * factor, 0.72, 8.5);
-      return;
-    }
-    if (this.drag && this.drag.pointerId === event.pointerId) {
+    if (this.drag) {
       const dx = event.clientX - this.drag.lastX;
       const dy = event.clientY - this.drag.lastY;
-      const threshold = this.coarsePointer ? 8 : 3;
-      if (Math.hypot(event.clientX - this.drag.x, event.clientY - this.drag.y) > threshold) this.drag.moved = true;
+      if (Math.hypot(event.clientX - this.drag.x, event.clientY - this.drag.y) > 3) this.drag.moved = true;
       this.drag.lastX = event.clientX;
       this.drag.lastY = event.clientY;
       if (this.is3D) {
-        this.camera.yaw += dx * (this.coarsePointer ? 0.0048 : 0.0062);
-        this.camera.pitch = clamp(this.camera.pitch + dy * (this.coarsePointer ? 0.0042 : 0.0054), -1.28, 1.28);
+        this.camera.yaw += dx * 0.0062;
+        this.camera.pitch = clamp(this.camera.pitch + dy * 0.0054, -1.28, 1.28);
       } else {
         this.camera.targetPanX += dx;
         this.camera.targetPanY += dy;
       }
       return;
     }
-    if (!this.coarsePointer) this.pickHover(event);
+    this.pickHover(event);
   }
 
   pointerUp(event) {
-    const wasPinching = Boolean(this.pinch) || this.activePointers.size > 1;
-    this.activePointers.delete(event.pointerId);
-    if (wasPinching) {
-      if (this.activePointers.size < 2) this.pinch = null;
-      this.drag = null;
-      return;
-    }
-    if (!this.drag || this.drag.pointerId !== event.pointerId) return;
+    if (!this.drag) return;
     const moved = this.drag.moved;
     this.drag = null;
     if (!moved) {
@@ -720,15 +670,7 @@ export class Renderer {
     }
   }
 
-  pointerCancel(event) {
-    this.activePointers.delete(event.pointerId);
-    this.pinch = null;
-    this.drag = null;
-    this.cancelDwell();
-  }
-
   pointerLeave() {
-    if (this.activePointers.size) return;
     this.pointer.inside = false;
     this.hoverNode = null;
     this.cancelDwell();
@@ -750,7 +692,7 @@ export class Renderer {
     for (const item of this.projected) {
       if (!item.visible) continue;
       const distance = Math.hypot(x - item.sx, y - item.sy);
-      const radius = Math.max(this.coarsePointer ? 17 : 8, item.size * 0.8 + (this.coarsePointer ? 10 : 5));
+      const radius = Math.max(8, item.size * 0.8 + 5);
       const insideMaterial = item.hitWidth > 0
         && Math.abs(x - item.sx) <= item.hitWidth / 2
         && Math.abs(y - item.sy) <= item.hitHeight / 2;
@@ -880,9 +822,7 @@ export class Renderer {
       this.displayPositions = this.transition.to;
       this.transition = null;
     }
-    const baseFps = this.coarsePointer
-      ? (this.quality === 'high' ? 45 : this.quality === 'fluid' ? 24 : 30)
-      : (this.quality === 'high' ? 60 : this.quality === 'fluid' ? 30 : 45);
+    const baseFps = this.quality === 'high' ? 60 : this.quality === 'fluid' ? 30 : 45;
     const targetFps = this.adaptiveLevel === 2 ? 24 : this.adaptiveLevel === 1 ? Math.min(30, baseFps) : baseFps;
     if (time - this.lastDrawAt >= 1000 / targetFps) {
       const started = performance.now();
@@ -1030,13 +970,13 @@ export class Renderer {
     const cross = (o, a, b) => (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
     const lower = [];
     for (const point of sorted) {
-      while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], point) <= 0) lower.pop();
+      while (lower.length >= 2 && cross(lower.at(-2), lower.at(-1), point) <= 0) lower.pop();
       lower.push(point);
     }
     const upper = [];
     for (let index = sorted.length - 1; index >= 0; index -= 1) {
       const point = sorted[index];
-      while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], point) <= 0) upper.pop();
+      while (upper.length >= 2 && cross(upper.at(-2), upper.at(-1), point) <= 0) upper.pop();
       upper.push(point);
     }
     lower.pop();
@@ -1176,7 +1116,7 @@ export class Renderer {
           const midpointY = (current.sy + next.sy) / 2 + offset;
           ctx.quadraticCurveTo(current.sx, current.sy + offset, midpointX, midpointY);
         }
-        const last = items[items.length - 1];
+        const last = items.at(-1);
         ctx.lineTo(last.sx, last.sy + offset);
         ctx.stroke();
       }
@@ -1780,8 +1720,6 @@ export class Renderer {
       this.canvas.removeEventListener('wheel', this.bound.wheel);
     }
     window.removeEventListener('pointerup', this.bound.pointerUp);
-    window.removeEventListener('pointercancel', this.bound.pointerCancel);
-    window.removeEventListener('resize', this.bound.resize);
     for (const id of [...this.imageCache.keys()]) this.releaseImage(id);
     if (this.element) this.element.innerHTML = '';
   }

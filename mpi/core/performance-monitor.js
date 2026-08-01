@@ -36,7 +36,7 @@ export class PerformanceMonitor {
     const values = this.samples.get(name) || [];
     if (!values.length) return { last: 0, average: 0, p95: 0, count: 0 };
     const sorted = [...values].sort((a, b) => a - b);
-    const last = values[values.length - 1];
+    const last = values.at(-1);
     const average = values.reduce((sum, value) => sum + value, 0) / values.length;
     const p95 = sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * 0.95))];
     return { last, average, p95, count: values.length };

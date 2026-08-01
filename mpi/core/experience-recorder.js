@@ -1,4 +1,4 @@
-import { downloadBlob } from './utils.js';
+import { downloadBlob } from './utils.js?v=20260801-original-working-rollback';
 
 const VIDEO_FORMATS = Object.freeze([
   { mimeType: 'video/mp4;codecs=avc1.42E01E,mp4a.40.2', extension: 'mp4', label: 'MP4' },

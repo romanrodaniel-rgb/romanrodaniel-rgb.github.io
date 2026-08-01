@@ -1,17 +1,17 @@
-import { AudioEngine } from './audio-engine.js';
-import { debounce } from './utils.js';
-import { ExperienceRecorder } from './experience-recorder.js';
-import { PerformanceMonitor } from './performance-monitor.js?v=20260801-mobile-safari';
-import { Renderer } from './renderer.js?v=20260801-mobile-safari';
-import { SessionRecorder } from './session-recorder.js';
-import { WorldLoader } from './world-loader.js';
+import { AudioEngine } from './audio-engine.js?v=20260801-original-working-rollback';
+import { debounce } from './utils.js?v=20260801-original-working-rollback';
+import { ExperienceRecorder } from './experience-recorder.js?v=20260801-original-working-rollback';
+import { PerformanceMonitor } from './performance-monitor.js?v=20260801-original-working-rollback';
+import { Renderer } from './renderer.js?v=20260801-original-working-rollback';
+import { SessionRecorder } from './session-recorder.js?v=20260801-original-working-rollback';
+import { WorldLoader } from './world-loader.js?v=20260801-original-working-rollback';
 import {
   extractPdfInBrowser,
   renderPdfPagePreview,
   isSupportedMaterial,
   recordsFromDrop,
   recordsFromFiles,
-} from './material-drop.js';
+} from './material-drop.js?v=20260801-original-working-rollback';
 
 const UI_TRANSLATIONS = Object.freeze({
   'Motor de Pensamiento Imaginal': 'Imaginal Thought Engine',
@@ -255,8 +255,6 @@ class App {
     this.selectedMaterialRecords = new Map();
     this.materialSelectionWorldId = null;
     this.language = 'en';
-    this.compactExperience = Boolean(window.matchMedia?.('(max-width: 700px), (pointer: coarse)').matches || window.innerWidth <= 700);
-    this.displayCaptureAvailable = Boolean(navigator.mediaDevices?.getDisplayMedia && window.MediaRecorder);
     this.interfaceSpanishText = new WeakMap();
     this.interfaceTranslationObserver = null;
     this.translatingInterface = false;
@@ -267,47 +265,10 @@ class App {
     this.restoreLanguagePreference();
   }
 
-  installBrowserCompatibility() {
-    const root = document.documentElement;
-    const syncViewport = () => {
-      const height = Math.max(320, Math.round(window.visualViewport?.height || window.innerHeight || 720));
-      root.style.setProperty('--app-height', `${height}px`);
-    };
-    syncViewport();
-    window.addEventListener('resize', syncViewport, { passive: true });
-    window.addEventListener('orientationchange', syncViewport, { passive: true });
-    window.visualViewport?.addEventListener('resize', syncViewport, { passive: true });
-    root.classList.toggle('compact-experience', this.compactExperience);
-
-    if (this.compactExperience) {
-      this.dom.renderQuality.value = 'fluid';
-      const temperature = Math.min(24, Number(this.dom.visualTemperature.value || 24));
-      this.dom.visualTemperature.value = String(temperature);
-      this.dom.visualTemperatureMetric.textContent = `${temperature} %`;
-      document.querySelectorAll('.tool-popover select').forEach((control) => {
-        control.addEventListener('change', () => window.setTimeout(() => control.closest('details')?.removeAttribute('open'), 80));
-      });
-      document.querySelectorAll('.tool-popover button:not(#audioUnlock)').forEach((control) => {
-        control.addEventListener('click', () => window.setTimeout(() => control.closest('details')?.removeAttribute('open'), 80));
-      });
-    }
-
-    if (!this.displayCaptureAvailable && this.dom.record) {
-      this.dom.record.disabled = true;
-      this.dom.record.classList.add('record-unavailable');
-      this.setText('recordLabel', this.compactExperience ? 'REC · PC' : 'REC N/D');
-      this.dom.record.title = this.uiText(
-        'La grabación de pantalla se utiliza desde un navegador de escritorio compatible.',
-        'Screen recording is available from a compatible desktop browser.'
-      );
-    }
-  }
-
   async init() {
     this.bindControls();
     this.bindInterfaceTranslationObserver();
     this.applyLanguage(this.language);
-    this.installBrowserCompatibility();
     const publicDemo = document.body.classList.contains('public-demo');
     if (publicDemo) {
       this.localApiAvailable = false;
@@ -1884,9 +1845,7 @@ class App {
       this.dom.showLinks.checked = Boolean(this.world.manifest.rendering?.showLinksDefault);
       this.dom.showAxes.checked = this.workspaceAxes[this.dom.workspaceMode.value] ?? true;
       this.dom.viewMode.value = this.world.manifest.rendering?.viewModeDefault || this.dom.viewMode.value;
-      this.dom.renderQuality.value = this.compactExperience
-        ? 'fluid'
-        : (this.world.manifest.rendering?.qualityDefault || 'balanced');
+      this.dom.renderQuality.value = this.world.manifest.rendering?.qualityDefault || 'balanced';
       this.audio = new AudioEngine(this.world, this.performance);
       this.audio.setMode(this.dom.mode.value);
       this.audio.setVolume(Number(this.dom.volume.value || 112) / 100);
@@ -2971,13 +2930,6 @@ class App {
   }
 
   async toggleRecording() {
-    if (!this.displayCaptureAvailable) {
-      this.setText('active', this.uiText(
-        'La grabación de la sesión está disponible desde un navegador de escritorio compatible.',
-        'Session recording is available from a compatible desktop browser.'
-      ));
-      return;
-    }
     if (!this.audio || !this.world || !this.renderer || this.recordStopping) return;
     if (this.recording) {
       await this.stopExperienceRecording('botón-stop');

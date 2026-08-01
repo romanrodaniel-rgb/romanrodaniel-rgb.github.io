@@ -1,4 +1,4 @@
-import { downloadBlob, nowIso } from './utils.js';
+import { downloadBlob, nowIso } from './utils.js?v=20260801-original-working-rollback';
 
 export class SessionRecorder {
   constructor() {

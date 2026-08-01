@@ -1,5 +1,5 @@
-import { fetchJson } from './utils.js';
-import { World } from './world.js';
+import { fetchJson } from './utils.js?v=20260801-original-working-rollback';
+import { World } from './world.js?v=20260801-original-working-rollback';
 
 export class WorldLoader {
   constructor(performanceMonitor) {

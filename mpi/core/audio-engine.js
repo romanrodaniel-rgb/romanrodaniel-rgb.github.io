@@ -1,4 +1,4 @@
-import { cancelIdle, clamp, downloadBlob, idle, seededRandom } from './utils.js';
+import { cancelIdle, clamp, downloadBlob, idle, seededRandom } from './utils.js?v=20260801-original-working-rollback';
 
 const RELATION_FREQUENCIES = Object.freeze({
   'belongs-to-source': 110.0,
