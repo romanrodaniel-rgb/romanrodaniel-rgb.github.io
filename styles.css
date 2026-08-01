@@ -326,3 +326,46 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
 .mpi-world-buttons { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:.65rem; }
 .mpi-world-buttons .prototype-button { white-space:nowrap; }
 @media (max-width: 760px) { .mpi-world-buttons { justify-content:flex-start; } }
+
+
+/* UI v2 · identidad MPI y flechas geométricas finas */
+.mpi-overlay-subtitle{
+  margin:.85rem 0 0;
+  font-size:clamp(.72rem,1.05vw,.95rem);
+  line-height:1.25;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:rgba(238,234,226,.66);
+}
+.thin-arrow{
+  position:relative;display:inline-block;width:18px;height:18px;vertical-align:middle;
+  color:currentColor;
+}
+.thin-arrow-ne::before{
+  content:"";position:absolute;left:3px;bottom:4px;width:13px;height:1px;background:currentColor;
+  transform:rotate(-45deg);transform-origin:left center;
+}
+.thin-arrow-ne::after{
+  content:"";position:absolute;right:2px;top:2px;width:7px;height:7px;
+  border-top:1px solid currentColor;border-right:1px solid currentColor;
+}
+.thin-arrow-down::before{
+  content:"";position:absolute;left:50%;top:2px;width:1px;height:13px;background:currentColor;
+  transform:translateX(-50%);
+}
+.thin-arrow-down::after{
+  content:"";position:absolute;left:50%;bottom:2px;width:7px;height:7px;
+  border-right:1px solid currentColor;border-bottom:1px solid currentColor;
+  transform:translateX(-50%) rotate(45deg);
+}
+.inline-links a::after{
+  content:"";display:inline-block;width:7px;height:7px;margin-left:.55rem;
+  border-top:1px solid currentColor;border-right:1px solid currentColor;
+  transform:translateY(-1px);
+}
+.project-row>a,.press-card b,.contact-links b{display:inline-flex;align-items:center;justify-content:center}
+@media(max-width:560px){
+  .thin-arrow{width:16px;height:16px}
+  .mpi-overlay h3{font-size:clamp(3.8rem,22vw,6.3rem)}
+  .mpi-overlay-subtitle{font-size:.64rem;letter-spacing:.13em}
+}

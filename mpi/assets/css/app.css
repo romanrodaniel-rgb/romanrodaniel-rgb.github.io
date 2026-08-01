@@ -724,3 +724,44 @@ body{min-height:var(--app-height,100vh)}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+
+/* v1.20.2-public-mobile-ui-v2 · toolbar superior, menús descendentes y flechas finas */
+.public-demo-back{gap:.58rem}
+.public-back-arrow{
+  position:relative;display:inline-block;width:16px;height:10px;flex:0 0 16px;
+}
+.public-back-arrow::before{
+  content:"";position:absolute;left:0;top:50%;width:15px;height:1px;background:currentColor;
+  transform:translateY(-50%);
+}
+.public-back-arrow::after{
+  content:"";position:absolute;left:0;top:50%;width:6px;height:6px;
+  border-left:1px solid currentColor;border-bottom:1px solid currentColor;
+  transform:translateY(-50%) rotate(45deg);transform-origin:center;
+}
+
+@media(max-width:700px){
+  :root{--topbar-height:106px;--mobile-toolbar-height:56px}
+  .topbar-menus{
+    top:var(--topbar-height);bottom:auto;
+    min-height:var(--mobile-toolbar-height);
+    padding:5px 8px;
+    border-top:0;border-bottom:1px solid rgba(145,177,216,.18);
+    box-shadow:0 10px 28px rgba(0,0,0,.24);
+  }
+  .tool-menu>summary{min-height:44px}
+  .tool-popover{
+    top:calc(var(--topbar-height) + var(--mobile-toolbar-height) + 8px)!important;
+    bottom:auto!important;
+    max-height:calc(var(--app-height,100vh) - var(--topbar-height) - var(--mobile-toolbar-height) - 20px);
+    overscroll-behavior:contain;
+  }
+  .layout{
+    margin-top:var(--mobile-toolbar-height);
+    height:calc(var(--app-height,100vh) - var(--topbar-height) - var(--mobile-toolbar-height));
+  }
+  .panel{padding-bottom:24px}
+  .public-demo-back{bottom:10px}
+  .interaction-help{bottom:10px}
+}
