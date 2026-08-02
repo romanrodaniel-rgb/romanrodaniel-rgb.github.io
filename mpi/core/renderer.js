@@ -1558,16 +1558,16 @@ export class Renderer {
     const wordLimit = selected ? 28 : hovered ? 20 : size >= 10 ? 15 : size >= 7.4 ? 10 : 6;
     const charLimit = selected ? 300 : hovered ? 220 : size >= 10 ? 170 : size >= 7.4 ? 112 : 72;
     const text = this.nodeOriginLabel(node, wordLimit, charLimit);
-    const fontSize = selected ? 18 : hovered ? 16 : clamp(9.5 + size * 0.42, 11, 15);
+    const fontSize = selected ? 17 : hovered ? 15 : clamp(9 + size * 0.36, 10.5, 14);
     const fontWeight = selected ? 400 : hovered ? 350 : 300;
-    const lineHeight = fontSize * 1.3;
+    const lineHeight = fontSize * 1.26;
     const maxWidth = clamp(size * 12, 86, selected ? 320 : hovered ? 260 : 210);
     const maxLines = selected ? 6 : hovered ? 5 : size >= 10 ? 4 : 3;
     const words = text.split(/\s+/);
     const lines = [];
     let line = '';
 
-    ctx.font = `${fontWeight} ${fontSize}px "Helvetica Neue", Helvetica, Arial, sans-serif`;
+    ctx.font = `${fontWeight} ${fontSize}px "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif`;
     for (const word of words) {
       const candidate = line ? `${line} ${word}` : word;
       if (ctx.measureText(candidate).width > maxWidth && line) {
@@ -1581,24 +1581,19 @@ export class Renderer {
     if (line && lines.length < maxLines) lines.push(line);
 
     const firstY = sy - ((lines.length - 1) * lineHeight) / 2;
-    const tint = `rgb(${color.r},${color.g},${color.b})`;
-    ctx.globalAlpha = selected || hovered ? 1 : clamp(visual.alpha + 0.22, 0.52, 0.94);
+    ctx.globalAlpha = selected || hovered ? 1 : clamp(visual.alpha + 0.18, 0.48, 0.9);
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.lineJoin = 'round';
-    ctx.shadowColor = generated
-      ? 'rgba(208,140,255,.72)'
-      : selected
-        ? `rgba(${color.r},${color.g},${color.b},.62)`
-        : 'rgba(0,0,0,.65)';
-    ctx.shadowBlur = selected ? 20 : hovered ? 13 : generated ? 10 : 5;
-    ctx.strokeStyle = 'rgba(3,7,12,.88)';
-    ctx.lineWidth = selected ? 4.5 : 3.2;
-    ctx.fillStyle = selected ? '#ffffff' : hovered ? '#f7fbff' : '#eaf1f7';
+    ctx.shadowColor = 'transparent';
+    ctx.shadowBlur = 0;
+    ctx.strokeStyle = 'rgba(3,7,12,.42)';
+    ctx.lineWidth = selected ? 0.9 : 0.55;
+    ctx.fillStyle = selected ? '#ffffff' : hovered ? '#f6f9fc' : 'rgba(234,241,247,.9)';
 
     lines.forEach((row, index) => {
       const y = firstY + index * lineHeight;
-      ctx.strokeText(row, sx, y, maxWidth);
+      if (selected || hovered) ctx.strokeText(row, sx, y, maxWidth);
       ctx.fillText(row, sx, y, maxWidth);
     });
 
@@ -1606,16 +1601,14 @@ export class Renderer {
       const lastLine = lines[lines.length - 1] || '';
       const underlineWidth = Math.min(maxWidth * 0.72, Math.max(28, ctx.measureText(lastLine).width));
       const underlineY = firstY + lines.length * lineHeight - lineHeight * 0.28;
-      ctx.shadowBlur = selected ? 16 : 8;
-      ctx.strokeStyle = '#d08cff';
-      ctx.lineWidth = selected ? 2 : 1.2;
+      ctx.strokeStyle = 'rgba(208,140,255,.72)';
+      ctx.lineWidth = selected ? 1.15 : 0.8;
       ctx.beginPath();
       ctx.moveTo(sx - underlineWidth / 2, underlineY);
       ctx.lineTo(sx + underlineWidth / 2, underlineY);
       ctx.stroke();
     }
 
-    ctx.shadowBlur = 0;
     ctx.textAlign = 'start';
     return true;
   }
