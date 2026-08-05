@@ -488,8 +488,8 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
   max-width: none;
   transform: translate(-50%, -50%) scale(1.02);
   transform-origin: 52% 48%;
-  opacity: .31;
-  filter: saturate(.92) contrast(1.06) brightness(.74);
+  opacity: .42;
+  filter: saturate(.96) contrast(1.05) brightness(.82);
   animation: mpi-lichen-breath 18s cubic-bezier(.42, 0, .28, 1) infinite alternate;
   will-change: transform, opacity;
 }
@@ -524,12 +524,12 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
   text-align: center;
 }
 
-.mpi-portal-logo {
-  width: clamp(280px, 43vw, 560px);
+.mpi-portal-wordmark {
+  width: clamp(300px, 44vw, 620px);
   max-width: 88%;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 22px 42px rgba(0, 0, 0, .42));
+  filter: drop-shadow(0 18px 32px rgba(0, 0, 0, .34));
   animation: mpi-logo-breath 15s ease-in-out infinite alternate;
 }
 
@@ -537,7 +537,7 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
   display: grid;
   justify-items: center;
   gap: .9rem;
-  margin-top: clamp(.7rem, 1.5vw, 1.4rem);
+  margin-top: clamp(1rem, 1.8vw, 1.7rem);
 }
 
 .mpi-open-button {
@@ -564,15 +564,15 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
 @keyframes mpi-lichen-breath {
   0% {
     transform: translate(-50%, -50%) scale(1.01) rotate(-.18deg);
-    opacity: .27;
+    opacity: .39;
   }
   55% {
     transform: translate(-49.7%, -50.3%) scale(1.045) rotate(.12deg);
-    opacity: .34;
+    opacity: .46;
   }
   100% {
     transform: translate(-50.2%, -49.7%) scale(1.075) rotate(.28deg);
-    opacity: .30;
+    opacity: .41;
   }
 }
 
@@ -757,8 +757,8 @@ body.mpi-overlay-open {
     padding-top: 5.5rem;
   }
 
-  .mpi-portal-logo {
-    width: min(76vw, 500px);
+  .mpi-portal-wordmark {
+    width: min(78vw, 520px);
   }
 }
 
@@ -772,8 +772,8 @@ body.mpi-overlay-open {
     padding: 4.8rem 1rem 2rem;
   }
 
-  .mpi-portal-logo {
-    width: min(88vw, 420px);
+  .mpi-portal-wordmark {
+    width: min(92vw, 460px);
   }
 
   .mpi-portal-action {
