@@ -12,7 +12,7 @@
   <meta property="og:image" content="https://romanrodaniel.com/assets/daniel-portrait.jpg">
   <title>Daniel Román — Sound as thought</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260801-ui-v2">
+  <link rel="stylesheet" href="styles.css?v=20260804-mpi-portal">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -169,25 +169,51 @@
         <p data-key="cordobaIntro">Córdoba is the first public world of the Imaginal Thinking Engine: an experimental space where images, texts and sounds can be explored through their relations.</p>
       </div>
 
-      <div class="mpi-window reveal">
-        <video class="mpi-video" muted loop playsinline preload="metadata" poster="assets/cordoba-poster.jpg" aria-label="Short preview of navigation through the Córdoba world">
-          <source src="assets/cordoba-loop.mp4" type="video/mp4">
-        </video>
-        <div class="mpi-window-top" aria-hidden="true">
-          <span>MPI · CÓRDOBA</span>
-          <span class="mpi-live"><i></i><span data-key="liveWorld">LIVE WORLD</span></span>
+      <div class="mpi-window mpi-portal reveal">
+        <div class="mpi-portal-visual" aria-hidden="true">
+          <img class="mpi-portal-lichen" src="assets/mpi-liquen-original.webp" alt="">
+          <span class="mpi-portal-aura"></span>
         </div>
-        <div class="mpi-overlay">
-          <div>
-            <p class="mpi-eyebrow" data-key="cordobaEyebrow">Images · sound · documents · relations</p>
-            <h3 data-key="mpiOverlayTitle">MPI</h3><p class="mpi-overlay-subtitle" data-key="mpiOverlaySubtitle">Imaginal Thinking Engine</p>
-          </div>
-          <div class="mpi-action">
-            <div class="mpi-world-buttons">
-              <a class="button button-solid prototype-button" href="mpi/?world=cordoba" data-key="enterCordoba">Enter Córdoba</a>
-              <a class="button button-line prototype-button" href="mpi/?world=grisalla" data-key="enterGrisalla">Enter Grisalla</a>
-            </div>
+
+        <div class="mpi-window-top" aria-hidden="true">
+          <span>MPI · MOTOR DE PENSAMIENTO IMAGINAL</span>
+          <span class="mpi-live"><i></i><span data-key="liveWorld">LIVE WORLDS</span></span>
+        </div>
+
+        <div class="mpi-portal-content">
+          <img class="mpi-portal-logo" src="assets/mpi-logo-oficial.webp" alt="MPI · Motor de Pensamiento Imaginal" loading="lazy" decoding="async">
+          <div class="mpi-portal-action">
+            <button class="button button-solid mpi-open-button" id="openMpiPortal" type="button" data-key="openMpi" aria-haspopup="dialog" aria-controls="mpiWorldOverlay" aria-expanded="false">Open MPI</button>
             <span data-key="integrationStatus">Two live worlds · public research demo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mpi-world-overlay" id="mpiWorldOverlay" role="dialog" aria-modal="true" aria-labelledby="mpiWorldTitle" hidden>
+        <button class="mpi-world-backdrop" type="button" data-mpi-close aria-label="Close world selection"></button>
+        <div class="mpi-world-panel" role="document">
+          <button class="mpi-world-close" type="button" data-mpi-close>
+            <span aria-hidden="true">×</span>
+            <span class="sr-only" data-key="closeWorldOverlay">Close</span>
+          </button>
+
+          <p class="kicker" data-key="worldOverlayKicker">MPI · Live worlds</p>
+          <h3 id="mpiWorldTitle" data-key="chooseWorld">Choose a world</h3>
+          <p class="mpi-world-intro" data-key="worldOverlayIntro">Enter one of the public relational worlds.</p>
+
+          <div class="mpi-world-options">
+            <a class="mpi-world-option" href="mpi/?world=cordoba">
+              <span>01</span>
+              <strong>Córdoba</strong>
+              <small data-key="cordobaWorldDesc">Archive, memory and sonic relations</small>
+              <b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
+            </a>
+            <a class="mpi-world-option" href="mpi/?world=grisalla">
+              <span>02</span>
+              <strong>Grisalla</strong>
+              <small data-key="grisallaWorldDesc">Poetry, image and sound as a navigable field</small>
+              <b class="thin-arrow thin-arrow-ne" aria-hidden="true"></b>
+            </a>
           </div>
         </div>
       </div>
@@ -294,6 +320,6 @@
     </section>
   </main>
 
-  <script src="script.js?v=20260801-ui-v2"></script>
+  <script src="script.js?v=20260804-mpi-portal"></script>
 </body>
 </html>
